@@ -79,13 +79,13 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item ">
-                                    <a class="nav-link" href="index.html"> Inicio  </a>
+                                    <a class="nav-link" href="index.html">Bienvenido</a>
                                  </li>
                                  <li class="nav-item ">
                                     <a class="nav-link" href="about.html">Quiénes somos</a>
                                  </li>
                                  <li class="nav-item active">
-                                    <a class="nav-link" href="service.html">Participa con tu bebé</a>
+                                    <a class="nav-link" href="Participabb.html">Participa con tu bebé</a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="team.html">Integrate al equipo </a>
@@ -105,36 +105,40 @@
                
          <div class="row">
             <div class="col-12 text-center ">
-                <p class="mensajeform">¿Te has preguntado de qué manera adquiere tu hijo el lenguaje?. Permite que tu bebé colabore con el avance científico de nuestro país. Te invitamos a participar con tu pequeño (a) en uno de nuestros estudios. Para registrar a tu bebé sólo tienes que llenar el formato de invitación:</p>
+                <p class="mensajeform">¿Te has preguntado de qué manera adquiere tu hijo el lenguaje? Permite que tu bebé colabore con el avance científico de nuestro país. Te invitamos a participar con tu pequeño (a) en uno de nuestros estudios. Para registrar a tu bebé sólo tienes que llenar el formato de invitación:</p>
             </div>
         </div>
         <div class="row">
             <div class="col-12 d-flex justify-content-center pb-5">
                 <img src="images/fotoForm.jpg" alt="Imagen" class="img-fluid">
-            </div>
-        </div>
+               </div>
+            </div >
         <div class="row">
             <div class="col-12 ">
               <div class="container">
                  <div class="row divform">
-                     <div class="col-md-6 offset-md-3 divform ho_color formulario">
-                         <form>
-                             <!-- Elemento 1: Cuadro de texto -->
-                             <div class="form-group row pt-4">
-                                 <label for="elemento1" class="col-sm-6 col-form-label ">Nombre de madre/padre:</label>
-                                 <div class="col-sm-6">
-                                    <input type="text" class="form-control" id="elemento1" placeholder="Nombre del madre/padre
-                                    ">
+
+                    <div class="pt-4 pb-2 col-md-11 col-lg-11 text-right">
+                       <a href="#" data-toggle="modal" data-target="#preguntasFrecuentesModal" class="preguntasFrecuentes p-2">Preguntas Frecuentes</a>
+                    </div>
+                    <div class="col-md-6 offset-md-3 divform ho_color formulario">
+                       <form>
+                           <div class="form-group row pt-4">
+                              
+                              <label for="elemento1" class="col-sm-6 col-form-label ">Nombre del madre/padre:</label>
+                              <div class="col-sm-6">
+                                 <input type="text" class="form-control" id="elemento1" placeholder="Nombre del madre/padre">
                               </div>
-                            </div>
+                           </div>
              
-                             <!-- Elemento 2: Cuadro de texto -->
-                             <div class="form-group row">
-                                <label for="elemento2" class="col-sm-6 col-form-label ">Nombre del niño(a):</label>
-                                <div class="col-sm-6">
-                                  <input type="text" class="form-control" id="elemento2" placeholder="Nombre del bebé">
-                                </div>
+                           <!-- Elemento 2: Cuadro de texto -->
+                           <div class="form-group row">
+
+                              <label for="elemento2" class="col-sm-6 col-form-label ">Nombre del niño(a):</label>
+                              <div class="col-sm-6">
+                                 <input type="text" class="form-control" id="elemento2" placeholder="Nombre del bebé">
                               </div>
+                           </div>
              
                              <!-- Elemento 3: Cuadro de selección -->
                              <div class="form-group row">
@@ -168,7 +172,6 @@
                                  <label for="elemento6" class="col-sm-6 col-form-label">Horario de contacto: </label>
                                  <div class="col-sm-6">
                                    <select class="form-control" id="elemento6">
-                                      <option value="opcion1">9:00 hrs</option>
                                       <option value="opcion2">10:00 hrs</option>
                                       <option value="opcion3">11:00 hrs</option>
                                       <option value="opcion3">12:00 hrs</option>
@@ -181,6 +184,7 @@
                                   </select>
                                  </div>
                              </div>
+                             
              
                              <!-- Elemento 7: Cuadro para ingresar correo -->
                              <div class="form-group row">
@@ -202,16 +206,116 @@
                                  </div>
                              </div>
                              <div class="row justify-content-center align-items-center py-5">
-                                <button type="submit" class="btn btn-secondary colorbonton">Enviar</button>
-                            </div>                             
-                         </form>
+                              <div class="form-group row mx-auto">
+                                    <div class="row mx-auto">
+                                       <div class="col-sm-12 pb-2">
+                                          <div class="form-check">
+                                              <input type="checkbox" class="form-check-input" id="terminos" required>
+                                             <label class="form-check-label" for="terminos">Acepto los términos y condiciones</label>
+                                          </div>
+                                          <div class="invalid-feedback">
+                                              Debes aceptar los términos y condiciones para continuar.
+                                          </div>
+                                       </div>
+                                       <button type="submit" class="btn btn-secondary colorbonton mx-auto">Enviar</button>
+                                    </div>    
+                                 </div>
+                              
+                              </div>                             
+                              </form>
+                       </div>
+                       
                      </div>
                  </div>
              </div>
              
                </div>
             </div>
+            <div class="row">
+               <div class="col-12 text-center ">
+                   <p class="mensajeform">Cuando tu bebé tiene la edad para alguno de nuestros estudios, nosotros nos ponemos en contacto contigo y acordamos una cita para que asistan juntos al Laboratorio de Infantes: <strong>TÚ DECIDES EL DÍA Y LA HORA DE TU VISITA</strong></p>
+               </div>
+           </div>
+           <!-- Modal de Preguntas Frecuentes -->  
+            <div class="modal fade" id="preguntasFrecuentesModal" tabindex="-1" role="dialog" aria-labelledby="preguntasFrecuentesModalLabel" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="preguntasFrecuentesModalLabel">Preguntas Frecuentes</h5>
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Cerrar">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div class="modal-body">
+                  <div class="container">
+                     <div class="accordion" id="myAccordion">
+                        <div class="card">
+                            <div class="card-header text-center" id="heading1">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1">
+                                       ¿En qué consiste tu visita?
+                                    </button>
+                                </h5>
+                            </div>
+            
+                            <div id="collapse1" class="collapse" data-parent="#myAccordion">
+                                <div class="card-body">
+                                 <p class="mb-3">Tú y tu bebé nos visitarán en el Laboratorio de Infantes aproximadamente por  45 minutos</p>
+
+                                 <p class="mb-3"><strong>Tu bebé estará contigo en todo momento</strong></p>
+                                 
+                                 <p class="mb-3">En la primera parte de la visita te proporcionaremos un par de cuestionarios que nos permitirán obtener información sobre las palabras que tu bebé conoce y en dado caso de que ya hable, las palabras que produce;  así como las condiciones ambientales en las que se desarrolla.</p>
+                                 
+                                 <p class="mb-3">En la segunda parte, tu bebé estará mucho más activo. Pasará a una cabina en donde le mostraremos en dos pantallas, imágenes acompañadas de sonidos: los cambios en su atención visual nos proporcionarán invaluable información.</p>
+                                 
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <div class="card-header text-center" id="heading2">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link custom-text-wrap" type="button" data-toggle="collapse" data-target="#collapse2">
+                                       ¿Es un curso que se realiza en el Laboratorio de Infantes?
+                                    </button>
+                                </h5>
+                            </div>
+            
+                            <div id="collapse2" class="collapse" data-parent="#myAccordion">
+                                <div class="card-body">
+                                    <p class="mb-3"><strong>NO</strong>, lo que realizamos es investigación básica sobre cómo adquieren el lenguaje los niños pequeños.</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="card">
+                            <div class="card-header" id="heading3">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3">
+                                        Elemento 3
+                                    </button>
+                                </h5>
+                            </div>
+            
+                            <div id="collapse3" class="collapse" data-parent="#myAccordion">
+                                <div class="card-body">
+                                    Contenido del elemento 3.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+           </div>
+       </div>
+   </div>
+</div>
+
+
          </div>
+         
      </div>
      
 

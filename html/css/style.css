@@ -132,6 +132,11 @@ button:focus {
      outline: none;
 }
 
+.custom-bullet-list{
+     list-style: circle !important;
+     margin-left: 20px;
+}
+
 ul,
 li,
 ol {
@@ -1466,6 +1471,36 @@ ul.img_icon li {
 .padingequipo{
      padding-bottom: 30px;
 }
+
+
+ 
+ /* Elimina las viñetas solo de ciertas listas con la clase "no-bullets" */
+ .no-bullets {
+     list-style: none;
+ }
+
+.preguntasFrecuentes{
+     background-color: #967223;
+     border-radius: 3px;
+     color: white;
+}
+
+/* Ajusta el ancho del modal */
+.modal-content {
+     width: 90%; /* Ajusta el ancho del modal según tus necesidades */
+ }
+
+ /* Ajusta el alto del modal */
+ .modal-dialog {
+     max-width: 90%; /* Ajusta el ancho máximo del modal según tus necesidades */
+ }
+
+ .custom-text-wrap {
+     max-width: 100%; /* Ajusta el ancho máximo según tus necesidades */
+     white-space: normal; /* Permite que el texto se ajuste automáticamente a dos líneas */
+ }
+ 
+
 
 /** end footer **/
 
