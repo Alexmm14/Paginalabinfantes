@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 
 
@@ -46,14 +44,16 @@ body {
      line-height: 1.80857;
      font-weight: normal;
 }
+
 .col-md-4 {
      border: none;
- }
+}
 
 .container {
      max-width: 100%;
 }
-#padingtop{
+
+#padingtop {
      padding-top: 50px;
 }
 
@@ -124,7 +124,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #fff;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -132,7 +132,7 @@ button:focus {
      outline: none;
 }
 
-.custom-bullet-list{
+.custom-bullet-list {
      list-style: circle !important;
      margin-left: 20px;
 }
@@ -175,7 +175,7 @@ img {
      border-radius: 10px;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -203,7 +203,7 @@ img {
 .navbar {
      display: flex;
      justify-content: center;
-  }
+}
 
 
 .badge {
@@ -397,10 +397,14 @@ ul.social_icon1 li:last-child {
 .header_midil {
      width: 100%;
      padding-bottom: 10px;
-     background-image: url(../images/fondoheader.jpg); /* Ruta de la imagen de fondo */
-     background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
-     background-color: rgb(150, 114, 35); /* Color de fondo translúcido (en este caso, negro con 50% de opacidad) */
-     background-blend-mode: overlay; /* Mezcla la imagen con el color de fondo */
+     background-image: url(../images/fondoheader.jpg);
+     /* Ruta de la imagen de fondo */
+     background-size: cover;
+     /* Ajusta la imagen al tamaño del contenedor */
+     background-color: rgb(150, 114, 35);
+     /* Color de fondo translúcido (en este caso, negro con 50% de opacidad) */
+     background-blend-mode: overlay;
+     /* Mezcla la imagen con el color de fondo */
 }
 
 .logo {
@@ -465,14 +469,16 @@ ul.conta_icon li a:hover {
 }
 
 .img-fluid.max-width {
-     max-width: 60%; /* El ancho máximo será el 100% del contenedor padre */
-     height: auto; /* La altura se ajustará automáticamente para mantener la proporción original */
- }
+     max-width: 60%;
+     /* El ancho máximo será el 100% del contenedor padre */
+     height: auto;
+     /* La altura se ajustará automáticamente para mantener la proporción original */
+}
 
 
 /*-- navigation--*/
 
-.mensajeform{
+.mensajeform {
      padding-top: 50px;
      font-size: large;
      text-align: justify;
@@ -895,7 +901,7 @@ ul.sign li a i {
      color: white;
      font-size: 17px;
      padding: 7px 0px;
-      width: 144px;
+     width: 144px;
      margin-top: 50% !important;
      display: block;
      margin: 0 auto;
@@ -1443,47 +1449,50 @@ ul.img_icon li {
      color: #fff;
 }
 
-.formulario{
+.formulario {
      font-size: medium;
      justify-content: center;
 }
 
-.divform{
+.divform {
      background-color: #003471;
      border-radius: 50px;
      color: white;
 }
 
 
-.colorbonton{
+.colorbonton {
      color: #fff;
      background-color: #967223;
      font-size: large;
 }
 
 .custom-container {
-     max-width: 1172px; /* Ajusta el ancho máximo del contenedor según tus necesidades */
-     margin: 0 auto; /* Centra el contenedor horizontalmente */
+     max-width: 1172px;
+     /* Ajusta el ancho máximo del contenedor según tus necesidades */
+     margin: 0 auto;
+     /* Centra el contenedor horizontalmente */
      border-radius: 2%;
 }
 
 
-.parrafoUnete{
+.parrafoUnete {
      font-size: x-large;
      justify-content: center;
 }
-.padingequipo{
+
+.padingequipo {
      padding-bottom: 30px;
 }
 
 
- 
- /* Elimina las viñetas solo de ciertas listas con la clase "no-bullets" */
- .no-bullets {
-     list-style: none;
- }
 
-.preguntasFrecuentes{
+/* Elimina las viñetas solo de ciertas listas con la clase "no-bullets" */
+.no-bullets {
+     list-style: none;
+}
+
+.preguntasFrecuentes {
      background-color: #967223;
      border-radius: 3px;
      color: white;
@@ -1491,40 +1500,49 @@ ul.img_icon li {
 
 /* Ajusta el ancho del modal */
 .modal-content {
-     width: 90%; /* Ajusta el ancho del modal según tus necesidades */
- }
+     width: 90%;
+     /* Ajusta el ancho del modal según tus necesidades */
+}
 
- /* Ajusta el alto del modal */
- .modal-dialog {
-     max-width: 90%; /* Ajusta el ancho máximo del modal según tus necesidades */
- }
+/* Ajusta el alto del modal */
+.modal-dialog {
+     max-width: 90%;
+     /* Ajusta el ancho máximo del modal según tus necesidades */
+}
 
- .custom-text-wrap {
-     max-width: 100%; /* Ajusta el ancho máximo según tus necesidades */
-     white-space: normal; /* Permite que el texto se ajuste automáticamente a dos líneas */
- }
+.custom-text-wrap {
+     max-width: 100%;
+     /* Ajusta el ancho máximo según tus necesidades */
+     white-space: normal;
+     /* Permite que el texto se ajuste automáticamente a dos líneas */
+}
 
 .max-height-200 {
-     max-height: 97px; /* Ajusta la altura máxima según tus necesidades */
+     max-height: 97px;
+     /* Ajusta la altura máxima según tus necesidades */
 }
+
 .color1 {
      background-color: yellowgreen;
-  }
+}
 
-  .color2 {
+.color2 {
      background-color: yellow;
-  }
+}
 
-  .color3 {
+.color3 {
      background-color: violet;
-  }
+}
 
-  .color4 {
+.color4 {
      background-color: turquoise;
-  }
+}
 
-  .color5 {
+.color5 {
      background-color: tomato;
-  }
-/** end footer **/
+}
 
+
+
+
+/** end footer **/
