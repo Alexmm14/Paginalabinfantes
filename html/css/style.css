@@ -1492,10 +1492,18 @@ ul.img_icon li {
      list-style: none;
 }
 
-.preguntasFrecuentes {
+.preguntasFrecuentes, .linkp {
      background-color: #967223;
      border-radius: 3px;
      color: white;
+}
+.preguntasFrecuentes:hover {
+     color: white !important; /* Cambia el color del texto cuando se pasa el ratón */
+}
+.linkp:hover{
+     background-color: #003471 ;
+     color: white;
+     border-radius:3px ;
 }
 
 /* Ajusta el ancho del modal */
