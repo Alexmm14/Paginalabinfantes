@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Información de Personas</title>
+  <style>
+    /* Estilos opcionales para mejorar la presentación */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .info-container {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Información de Personas</h1>
+
+<!-- Contenedor para mostrar información de cada elemento -->
+<div id="informacion-container"></div>
+
+<script>
+  // Ruta al archivo JSON
+  var rutaJSON = 'JSON/semblanzas.json';
+  var rutaImg = 'images/participantes/';
+
+  // Realizar solicitud (request) para obtener el JSON
+  fetch(rutaJSON)
+    .then(response => response.json())
+    .then(jsonArray => {
+      // Obtener el contenedor
+      var informacionContainer = document.getElementById('informacion-container');
+
+      // Iterar sobre cada elemento del arreglo
+      jsonArray.forEach(jsonInfo => {
+        
+        // Crear elementos HTML para mostrar la información
+        var elementoInfo = document.createElement('div');
+        var res = rutaImg + jsonInfo.imagen
+        elementoInfo.classList.add('info-container');
+        elementoInfo.innerHTML = `
+          <h2>Nombre:</h2>
+          <p>${jsonInfo.nombre}</p>
+  
+          <h2>Semblanza:</h2>
+          <p>${jsonInfo.semblanza}</p>
+  
+          <h2>Tipo:</h2>
+          <p>${jsonInfo.tipo}</p>
+  
+          <h2>PDF:</h2>
+          <p>${jsonInfo.pdf}</p>
+  
+          <img src="${res}" alt="Imagen de ${jsonInfo.nombre}">
+          <hr>
+        `;
+
+        // Agregar el elemento al contenedor
+        informacionContainer.appendChild(elementoInfo);
+      });
+    })
+    .catch(error => console.error('Error al obtener el JSON:', error));
+</script>
+
+</body>
+</html>

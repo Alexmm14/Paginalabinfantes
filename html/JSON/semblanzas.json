@@ -1,0 +1,17 @@
+[
+    {
+      "nombre": "Dra. Elda Alicia Alva Canto",
+      "semblanza": "La Dra. Elda Alicia Alva Canto estudió la licenciatura en Psicología en la UNAM...",
+      "imagen": "alva.jpg",
+      "tipo": "directora",
+      "pdf": ""
+    },
+    {
+      "nombre": "Dr. Juan Pérez",
+      "semblanza": "El Dr. Juan Pérez es un experto en...",
+      "imagen": "perez.jpg",
+      "tipo": "prof",
+      "pdf": "juan_perez_cv.pdf"
+    }
+  ]
+  
