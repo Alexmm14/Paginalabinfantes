@@ -243,14 +243,25 @@
                                  <div class="card-body text-justify">
                                     <h3 class="mb-3">Lectura Conjunta</h3>
                                     <p class="mb-3">
-                                       Es una tarea en donde interactúan el infante y su cuidador principal de forma que ambos observan, leen y narran en voz alta una historia a partir de unos libros compuestos por imágenes.
+                                       Es una tarea en donde interactúan el infante y su cuidador principal de forma que
+                                       ambos observan, leen y narran en voz alta una historia a partir de unos libros
+                                       compuestos por imágenes.
                                     </p>
                                     <p class="mb-3">
-                                       Esta tarea, en donde la narración se da en un ambiente controlado, nos permite observar la interacción entre cuidador e infante y obtener una muestra del vocabulario que producen los integrantes de la diada en cuanto a su tamaño y complejidad. Asimismo, la hemos empleado para analizar la comunicación gestual en la diada y su relación con el vocabulario.
+                                       Esta tarea, en donde la narración se da en un ambiente controlado, nos permite
+                                       observar la interacción entre cuidador e infante y obtener una muestra del
+                                       vocabulario que producen los integrantes de la diada en cuanto a su tamaño y
+                                       complejidad. Asimismo, la hemos empleado para analizar la comunicación gestual en
+                                       la diada y su relación con el vocabulario.
                                     </p>
                                     <h3>Juego Libre</h3>
                                     <p>
-                                       Mediante una tarea de juego libre organizada en 3 condiciones diferentes: juego diádico con padre-bebé, juego diádico madre-bebé y juego tríadico con ambos padres hemos observado las prácticas de crianza presentadas por una muestra de madres y padres mexicanos. Asimismo, se investiga si las prácticas de crianza que presenta el padre afectan el desarrollo del vocabulario en igual o mayor medida que las prácticas de crianza de la madre.
+                                       Mediante una tarea de juego libre organizada en 3 condiciones diferentes: juego
+                                       diádico con padre-bebé, juego diádico madre-bebé y juego tríadico con ambos
+                                       padres hemos observado las prácticas de crianza presentadas por una muestra de
+                                       madres y padres mexicanos. Asimismo, se investiga si las prácticas de crianza que
+                                       presenta el padre afectan el desarrollo del vocabulario en igual o mayor medida
+                                       que las prácticas de crianza de la madre.
                                     </p>
                                  </div>
                               </div>
@@ -262,23 +273,62 @@
                <!--pestaña 2-->
                <div class="tab-pane fade" id="pestaña2" role="tabpanel" aria-labelledby="pestaña2-tab">
                   <!-- Contenido de la pestaña 2 -->
-                  <div class="row text-center">
-                     <div class="col-12 color1">
-                        <h3>Directora</h3>
-                     </div>
-                     <div class="col-12 color2">
-                        <h3>Profesores-investigadores</h3>
-                     </div>
-                     <div class="col-12 color3">
-                        <h3>Doctorantes</h3>
-                     </div>
-                     <div class="col-12 color4">
-                        <h3>Estudiantes de Licenciatura</h3>
-                     </div>
-                     <div class="col-12 color5">
-                        <h3>Colaboradores</h3>
+                  <div class="container">
+                     <div class="accordion" id="miAcordeon">
+                        <div class="card">
+                           <div class="card-header" id="seccion1">
+                              <h2 class="mb-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#contenido1">
+                                    Sección 1
+                                 </button>
+                              </h2>
+                           </div>
+                        
+                           <div id="contenido1" class="collapse" aria-labelledby="seccion1" data-parent="#miAcordeon">
+                              <div class="card-body">
+                                 <!-- Agregando otro acordeón dentro del contenido -->
+                                 <div class="card">
+                                    <div class="card-header" id="subseccion1">
+                                       <h2 class="mb-0">
+                                          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#subcontenido1">
+                                             Subsección 1
+                                          </button>
+                                       </h2>
+                                    </div>
+                           
+                                    <div id="subcontenido1" class="collapse" aria-labelledby="subseccion1" data-parent="#contenido1">
+                                       <div class="card-body">
+                                          Contenido de la subsección 1
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <!-- Fin del acordeón dentro del contenido -->
+                              </div>
+                           </div>
+                        </div>
+                        
+
+                        <div class="card">
+                           <div class="card-header" id="seccion2">
+                              <h2 class="mb-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#contenido2">
+                                    Sección 2
+                                 </button>
+                              </h2>
+                           </div>
+
+                           <div id="contenido2" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
+                              <div class="card-body">
+                                 Contenido de la sección 2.
+                              </div>
+                           </div>
+                        </div>
+
+                        <!-- Agrega más secciones según sea necesario -->
                      </div>
                   </div>
+
                </div>
                <!-- Resto del contenido de las pestañas -->
                <!-- Agrega aquí el contenido específico de las pestañas restantes -->
