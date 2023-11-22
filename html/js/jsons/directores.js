@@ -20,32 +20,33 @@ fetch(rutaJSON)
 
       elementoInfo.classList.add('info-container');
       elementoInfo.innerHTML = `
-        
-
-        <div id="contenido${num}" class="collapse" aria-labelledby="seccion${num}" data-parent="#miAcordeon">
-          <div class="card">
-            <div class="card-header" id="subseccion${num}">
+      <div class="card-body">
+        <div class="card">
+          <div class="card-header" id="subseccion${num}"> 
               <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#subcontenido${num}">
-                  ${jsonInfo.nombre}
+                  <button class="btn btn-link" type="button" data-toggle="collapse"
+                    data-target="#subcontenido${num}">
+                    <h2>
+                    ${jsonInfo.nombre}
+                    </h2>
                 </button>
-              </h2>
-            </div>
+                </h2>
+          </div>
 
-            <div id="subcontenido${num}" class="collapse" aria-labelledby="subseccion${num}" data-parent="#contenido${num}">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-12 col-lg-3 col-md-3 color3">
-                    <img src="${res}" alt="Imagen de ${jsonInfo.nombre}">
-                  </div>
-                  <div class="col-12 col-lg-9 col-md-9 color2 mb-3">
-                    <p>${jsonInfo.semblanza}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div id="subcontenido${num}" class="collapse" aria-labelledby="subseccion1"  
+          data-parent="#contenido1">
+          <div class="card-body">
+              <div class="row">
+                <div class=" col-lg-3 col-md-3 color3">
+                  <img src="${res}" alt="Imagen de ${jsonInfo.nombre}">
+                <div>
+                <div class=" col-lg-9 col-md-9 color2 mb-3">
+                  <p>${jsonInfo.semblanza}</p>
+                <div>
           </div>
         </div>
+      </div>  
+   </div>
       `;
 
       // Agregar el elemento al contenedor

@@ -275,11 +275,28 @@
                   <!-- Contenido de la pestaña 2 -->
                   <div class="container">
                      <div class="accordion" id="miAcordeon">
-                        <div class="card" id="informacion-container">
-                           <script src="js\jsons\directores.js"></script>
-                        </div>
-                        
+                        <!-- Sección 1 -->
+                        <div class="card">
+                           <div class="card-header" id="seccion1">
+                              <h2 class="mb-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#contenido1">
+                                    Sección 1
+                                 </button>
+                              </h2>
+                           </div>
 
+                           <div id="contenido1" class="collapse" aria-labelledby="seccion1" data-parent="#miAcordeon">
+
+                                 <!-- Subsección 1 -->
+                                 <div id="informacion-container">
+                                    <script src="./js/jsons/directores.js"></script>
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- Fin de la Sección 1 -->
+
+                        <!-- Sección 2 -->
                         <div class="card">
                            <div class="card-header" id="seccion2">
                               <h2 class="mb-0">
@@ -296,10 +313,12 @@
                               </div>
                            </div>
                         </div>
+                        <!-- Fin de la Sección 2 -->
 
-                        <!-- Agrega más secciones según sea necesario -->
+                        <!-- Puedes seguir agregando más secciones y subsecciones según sea necesario -->
                      </div>
                   </div>
+
 
                </div>
                <!-- Resto del contenido de las pestañas -->
