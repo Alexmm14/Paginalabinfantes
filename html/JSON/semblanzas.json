@@ -1,16 +1,9 @@
 [
     {
       "nombre": "Dra. Elda Alicia Alva Canto",
-      "semblanza": "La Dra. Elda Al nnnnnbbbbbbbbbbbicia Alva Canto estud<br>zió la licenciatura en Psicología en la UNAM...",
+      "semblanza": "La Dra. Elda Alicia Alva Canto estudió la licenciatura en Psicología en la UNAM y después de realizar estudios de maestría en la Universidad de Texas regresó a su alma matter para iniciar investigación sobre la psicología del desarrollo de los infantes. Realizó su doctorado en Psicología General-Experimental en la Facultad de Psicología de la UNAM y su interés al respecto la ha mantenido, desde hace más de 20 años, ocupada en descubrir y describir los procesos y factores involucrados en la adquisición y desarrollo del lenguaje en infantes. En la actualidad, como parte de su adscripción a la academia de la Facultad de Psicología de la UNAM y al Sistema Nacional de Investigadores del CONACyT, tiene a su cargo el Laboratorio de Infantes, único en Hispanoamérica, donde se lleva a cabo la más actual y moderna línea de investigación del lenguaje, basada en estudios experimentales.<br>Su trayectoria académica la ha llevado a ocupar la presidencia de la Sociedad Mexicana de Psicología. Se cuentan en su haber libros como Un diccionario para mí, Cómo usan los niños las palabras, La producción del lenguaje de niños mexicanos, y Del universo de los sonidos a la palabra. Ha participado en múltiples congresos tanto nacionales como internacionales presentando los avances de las investigaciones realizadas en el Laboratorio de Infantes. En la actualidad es tutora de cinco alumnos de doctorado, además de dirigir diversas tesis de licenciatura y maestría.",
       "imagen": "alva.jpg",
       "pdf": ""
-    },
-    {
-      "nombre": "Dr. Juan Pérez",
-      "semblanza": "El Dr. Juan Pérez es un experto en...",
-      "imagen": "perez.jpg",
-      "tipo": "prof",
-      "pdf": "juan_perez_cv.pdf"
     }
   ]
   

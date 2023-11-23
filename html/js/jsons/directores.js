@@ -22,19 +22,19 @@ fetch(rutaJSON)
       elementoInfo.innerHTML = `
       <div class="card-body">
       <div class="card">
-          <div class="card-header" id="subseccion${num}">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#subcontenido${num}">
+          <div class="card-header" id="subseccion1-${num}">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#subcontenido1-${num}">
                   ${jsonInfo.nombre}
               </button>
           </div>
   
-          <div id="subcontenido${num}" class="collapse" aria-labelledby="subseccion${num}" data-parent="#contenido1">
+          <div id="subcontenido1-${num}" class="collapse" aria-labelledby="subseccion1-${num}" data-parent="#contenido1">
               <div class="card-body">
                   <div class="row">
-                      <div class="col-12 col-lg-3 col-md-3 color3">
+                      <div class="col-12 col-lg-3 col-md-3 text-center">
                           <img src="${res}" alt="Imagen de ${jsonInfo.nombre}">
                       </div>
-                      <div class="col-12 col-lg-9 col-md-9 color2 mb-3">
+                      <div class="col-12 col-lg-9 col-md-9 mb-3">
                           <p>${jsonInfo.semblanza}</p>
                       </div>
                   </div>

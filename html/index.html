@@ -137,12 +137,12 @@
                <div class="tab-pane fade show active" id="pestaña1" role="tabpanel" aria-labelledby="pestaña1-tab">
                   <!-- Contenido de la pestaña 1 -->
                   <h1 class="text-center">Lineas de investigación</h1>
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <div id="carrusel1" class="carousel slide" data-ride="carousel">
                      <!-- Indicadores -->
                      <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#carrusel1" data-slide-to="0" class="active"></li>
+                        <li data-target="#carrusel1" data-slide-to="1"></li>
+                        <li data-target="#carrusel1" data-slide-to="2"></li>
                      </ol>
                      <!-- Contenido del carrusel -->
                      <div class="carousel-inner text-center">
@@ -281,13 +281,12 @@
                               <h2 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#contenido1">
-                                    Sección 1
+                                    <h2>Directora</h2>
                                  </button>
                               </h2>
                            </div>
 
                            <div id="contenido1" class="collapse" aria-labelledby="seccion1" data-parent="#miAcordeon">
-
                                  <!-- Subsección 1 -->
                                  <div id="informacion-container">
                                     <script src="./js/jsons/directores.js"></script>
@@ -302,25 +301,101 @@
                               <h2 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#contenido2">
-                                    Sección 2
+                                    <h2>Profesores-investigadores</h2>
                                  </button>
                               </h2>
                            </div>
 
                            <div id="contenido2" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
-                              <div class="card-body">
-                                 Contenido de la sección 2.
+                              <div id="informacion-container2">
+                                 <script src="./js/jsons/Profesores-investigadores.js"></script>
                               </div>
                            </div>
                         </div>
-                        <!-- Fin de la Sección 2 -->
+                        <!-- Fin de la Sección 2-->
+                        <div class="card">
+                           <div class="card-header" id="seccion3">
+                              <h2 class="mb-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#contenido3">
+                                    <h2>Doctorantes</h2>
+                                 </button>
+                              </h2>
+                           </div>
 
+                           <div id="contenido3" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
+                              <div id="informacion-container3">
+                                 <script src="./js/jsons/Doctorantes.js"></script>
+                              </div>
+                           </div>
+                        </div>
+                        
+                        <!-- Fin de la Sección 3-->
+                        <div class="card">
+                           <div class="card-header" id="seccion4">
+                              <h2 class="mb-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#contenido4">
+                                    <h2>Estudiantes de Licenciatura</h2>
+                                 </button>
+                              </h2>
+                           </div>
+
+                           <div id="contenido4" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
+                              <div id="informacion-container4">
+                                 <script src="./js/jsons/EstudiantesdeLicenciatura.js"></script>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- Fin de la Sección 3-->
+                        <div class="card">
+                           <div class="card-header" id="seccion5">
+                              <h2 class="mb-0">
+                                 <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#contenido5">
+                                    <h2>Colaboradores</h2>
+                                 </button>
+                              </h2>
+                           </div>
+
+                           <div id="contenido5" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
+                              <div id="informacion-container5">
+                                 <script src="./js/jsons/Colaboradores.js"></script>
+                              </div>
+                           </div>
+                        </div>
                         <!-- Puedes seguir agregando más secciones y subsecciones según sea necesario -->
                      </div>
                   </div>
-
-
                </div>
+
+               <div class="tab-pane fade show active" id="pestaña3" role="tabpanel" aria-labelledby="pestaña3-tab">
+                  <!-- Contenido de la pestaña 1 -->
+                  <h1 class="text-center">Eventos académicos del laboratorio de infantes</h1>
+                  <div class="container">
+                     <div id="carrusel2" class="carousel slide mx-auto" data-ride="carousel">
+                        <!-- Indicadores -->
+                        <ol class="carousel-indicators"></ol>
+                        <!-- Contenido del carrusel -->
+                        <div class="carousel-inner text-center"></div>
+                        <!-- Flechas de navegación -->
+                        <a class="carousel-control-prev" href="#carrusel2" role="button" data-slide="prev" style="width: 400px;">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carrusel2" role="button" data-slide="next" style="width: 400px;">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="sr-only">Next</span>
+                        </a>
+                     </div>
+                     
+                     <!-- Agrega el script JavaScript desde el archivo externo -->
+                     <script src="./js/jsons/eventosAcademicos.js"></script>
+                  </div>
+                  <script src="js/jsons/eventosAcademicos.js"></script>
+               </div>
+               
+               
                <!-- Resto del contenido de las pestañas -->
                <!-- Agrega aquí el contenido específico de las pestañas restantes -->
             </div>

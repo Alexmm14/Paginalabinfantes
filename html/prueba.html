@@ -1,33 +1,56 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Información de Personas</title>
-  <style>
-    /* Estilos opcionales para mejorar la presentación */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-    .info-container {
-      margin-bottom: 20px;
-    }
-  </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Dynamic Carousel with Bootstrap</title>
+   <!-- Agrega tus estilos Bootstrap y cualquier otro estilo necesario -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <style>
+      /* Agrega estilos adicionales según sea necesario */
+      .carousel-item {
+         height: 100%; /* Ajusta la altura según sea necesario */
+      }
+      .imagen-carrusel {
+         max-height: 100%; /* Ajusta la altura máxima según sea necesario */
+         max-width: 100%;
+         width: auto;
+         margin: auto; /* Centra la imagen horizontalmente */
+      }
+   </style>
 </head>
 <body>
 
-<h1>Información de Personas</h1>
+<div class="container">
+   <div id="myCarousel" class="carousel slide mx-auto" data-ride="carousel">
+      <!-- Indicadores -->
+      <ol class="carousel-indicators"></ol>
+      <!-- Contenido del carrusel -->
+      <div class="carousel-inner text-center"></div>
+      <!-- Flechas de navegación -->
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="width: 400px;">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next" style="width: 400px;">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+      </a>
+   </div>
+</div>
 
-<!-- Contenedor para mostrar información de cada elemento -->
-<div id="informacion-container"></div>
+<!-- Agrega el script JavaScript desde el archivo externo -->
+<script src="./js/jsons/eventosAcademicos.js"></script>
 
-<script src="js\jsons\directores.js"></script>
-awa
+<!-- Agrega tus scripts de Bootstrap y jQuery aquí -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Llama a la función para cargar y mostrar el carrusel -->
+<script>
+   cargarJSON(inicializarCarrusel);
+</script>
 
 </body>
 </html>
