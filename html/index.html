@@ -287,10 +287,10 @@
                            </div>
 
                            <div id="contenido1" class="collapse" aria-labelledby="seccion1" data-parent="#miAcordeon">
-                                 <!-- Subsección 1 -->
-                                 <div id="informacion-container">
-                                    <script src="./js/jsons/directores.js"></script>
-                                 </div>
+                              <!-- Subsección 1 -->
+                              <div id="informacion-container">
+                                 <script src="./js/jsons/directores.js"></script>
+                              </div>
                            </div>
                         </div>
                         <!-- Fin de la Sección 1 -->
@@ -329,7 +329,7 @@
                               </div>
                            </div>
                         </div>
-                        
+
                         <!-- Fin de la Sección 3-->
                         <div class="card">
                            <div class="card-header" id="seccion4">
@@ -369,33 +369,16 @@
                   </div>
                </div>
 
-               <div class="tab-pane fade show active" id="pestaña3" role="tabpanel" aria-labelledby="pestaña3-tab">
+               <div class="tab-pane fade" id="pestaña3" role="tabpanel" aria-labelledby="pestaña3-tab">
+
                   <!-- Contenido de la pestaña 1 -->
                   <h1 class="text-center">Eventos académicos del laboratorio de infantes</h1>
-                  <div class="container">
-                     <div id="carrusel2" class="carousel slide mx-auto" data-ride="carousel">
-                        <!-- Indicadores -->
-                        <ol class="carousel-indicators"></ol>
-                        <!-- Contenido del carrusel -->
-                        <div class="carousel-inner text-center"></div>
-                        <!-- Flechas de navegación -->
-                        <a class="carousel-control-prev" href="#carrusel2" role="button" data-slide="prev" style="width: 400px;">
-                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                           <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carrusel2" role="button" data-slide="next" style="width: 400px;">
-                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                           <span class="sr-only">Next</span>
-                        </a>
-                     </div>
-                     
-                     <!-- Agrega el script JavaScript desde el archivo externo -->
-                     <script src="./js/jsons/eventosAcademicos.js"></script>
-                  </div>
-                  <script src="js/jsons/eventosAcademicos.js"></script>
+                  <div id="carrusel "></div>
+                  <button id="anterior" onclick="cambiarSlide(-1)">Anterior</button>
+                  <button id="siguiente" onclick="cambiarSlide(1)">Siguiente</button>
                </div>
-               
-               
+
+
                <!-- Resto del contenido de las pestañas -->
                <!-- Agrega aquí el contenido específico de las pestañas restantes -->
             </div>
@@ -496,6 +479,7 @@
    <!-- sidebar -->
    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="js/custom.js"></script>
+   <script src="./js/jsons/eventosAcademicos.js"></script>
 </body>
 
 </html>

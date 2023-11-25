@@ -15,12 +15,12 @@ fetch(rutaJSON)
       num++;
 
       // Crear elementos HTML para mostrar la información
-      var elementoInfo = document.createElement('div');
+      var elementoInfo = document.createElement('card-body');
       var res = rutaImg + jsonInfo.imagen;
 
       elementoInfo.classList.add('info-container');
       elementoInfo.innerHTML = `
-      <div class="card-body">
+      
     <div class="card">
         <div class="card-header" id="subseccion4-${num}">
             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#subcontenido4-${num}" aria-expanded="true">
@@ -41,7 +41,6 @@ fetch(rutaJSON)
             </div>
         </div>
     </div>
-</div>
 
   
       `;

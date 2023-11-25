@@ -1,56 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Dynamic Carousel with Bootstrap</title>
-   <!-- Agrega tus estilos Bootstrap y cualquier otro estilo necesario -->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-   <style>
-      /* Agrega estilos adicionales según sea necesario */
-      .carousel-item {
-         height: 100%; /* Ajusta la altura según sea necesario */
-      }
-      .imagen-carrusel {
-         max-height: 100%; /* Ajusta la altura máxima según sea necesario */
-         max-width: 100%;
-         width: auto;
-         margin: auto; /* Centra la imagen horizontalmente */
-      }
-   </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel Dinámico</title>
+    <style>
+        #carrusel {
+            display: flex;
+            overflow: hidden;
+            width: 80%;
+            margin: auto;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        #anterior, #siguiente {
+            cursor: pointer;
+            font-size: 24px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
+    <div id="carrusel"></div>
+    <button id="anterior" onclick="cambiarSlide(-1)">Anterior</button>
+    <button id="siguiente" onclick="cambiarSlide(1)">Siguiente</button>
 
-<div class="container">
-   <div id="myCarousel" class="carousel slide mx-auto" data-ride="carousel">
-      <!-- Indicadores -->
-      <ol class="carousel-indicators"></ol>
-      <!-- Contenido del carrusel -->
-      <div class="carousel-inner text-center"></div>
-      <!-- Flechas de navegación -->
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev" style="width: 400px;">
-         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-         <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next" style="width: 400px;">
-         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-         <span class="sr-only">Next</span>
-      </a>
-   </div>
-</div>
-
-<!-- Agrega el script JavaScript desde el archivo externo -->
-<script src="./js/jsons/eventosAcademicos.js"></script>
-
-<!-- Agrega tus scripts de Bootstrap y jQuery aquí -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<!-- Llama a la función para cargar y mostrar el carrusel -->
-<script>
-   cargarJSON(inicializarCarrusel);
-</script>
-
+    <script src="./js/jsons/eventosAcademicos.js"></script>
 </body>
 </html>

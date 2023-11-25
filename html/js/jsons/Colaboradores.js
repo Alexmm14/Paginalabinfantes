@@ -20,7 +20,6 @@ fetch(rutaJSON)
 
       elementoInfo.classList.add('info-container');
       elementoInfo.innerHTML = `
-      <div class="card-body">
             <div class="card">
                 <div class="card-header" id="subseccion5-${num}">
                     <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#subcontenido5-${num}" aria-expanded="true">
@@ -41,7 +40,6 @@ fetch(rutaJSON)
                     </div>
                 </div>
             </div>
-        </div>
 
   
       `;
