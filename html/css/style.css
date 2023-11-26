@@ -167,6 +167,8 @@ a,
      -ms-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
+
+     
 }
 
 img {
@@ -273,7 +275,7 @@ ul.btn li {
 }
 
 ul.btn li a {
-     color: #fff;
+     color: #b92f2f;
      font-size: 16px;
 }
 
@@ -1418,7 +1420,7 @@ ul.img_icon li {
 }
 
 .main_form .send_btn:hover {
-     background-color: #000;
+     background-color: #003471;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -1462,11 +1464,20 @@ ul.img_icon li {
 
 
 .colorbonton {
-     color: #fff;
+     color: white;
      background-color: #967223;
-     font-size: large;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
 }
-
+.colorbonton:hover {
+     background-color: #003471; /* Cambia "nuevo-color" al color deseado */
+ }
+*/
 .custom-container {
      max-width: 1172px;
      /* Ajusta el ancho máximo del contenedor según tus necesidades */
@@ -1548,6 +1559,10 @@ ul.img_icon li {
 
 .color5 {
      background-color: tomato;
+}
+.fotoscarrusel{
+     width: 400px;
+     height: auto;
 }
 
 /* styles.css (o el nombre que le hayas dado a tu archivo de estilos) */

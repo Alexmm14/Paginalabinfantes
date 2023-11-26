@@ -31,6 +31,8 @@
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+
+
 </head>
 <!-- body -->
 
@@ -370,13 +372,16 @@
                </div>
 
                <div class="tab-pane fade" id="pestaña3" role="tabpanel" aria-labelledby="pestaña3-tab">
-
                   <!-- Contenido de la pestaña 1 -->
-                  <h1 class="text-center">Eventos académicos del laboratorio de infantes</h1>
+                  <h1 class="text-center mb-3">Eventos académicos del laboratorio de infantes</h1>
                   <div id="carrusel"></div>
-                  <button id="anterior" onclick="cambiarSlide(-1)">Anterior</button>
-                  <button id="siguiente" onclick="cambiarSlide(1)">Siguiente</button>
+                  <div class="text-center p-2">
+                     <button id="anterior" class="btn colorbonton mr-2">Anterior</button>
+                     <button id="siguiente" class="btn colorbonton">Siguiente</button>
+                  </div>
                </div>
+               <script src="./js/jsons/eventosAcademicos.js"></script>
+
 
 
                <!-- Resto del contenido de las pestañas -->
@@ -479,7 +484,7 @@
    <!-- sidebar -->
    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="js/custom.js"></script>
-   <script src="./js/jsons/eventosAcademicos.js"></script>
+
 </body>
 
 </html>
