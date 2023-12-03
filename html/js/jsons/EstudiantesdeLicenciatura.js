@@ -5,21 +5,21 @@ var num = 0;
 
 // Realizar solicitud (request) para obtener el JSON
 fetch(rutaJSON)
-  .then(response => response.json())
-  .then(jsonArray => {
-    // Obtener el contenedor
-    var informacionContainer = document.getElementById('informacion-container4');
+    .then(response => response.json())
+    .then(jsonArray => {
+        // Obtener el contenedor
+        var informacionContainer = document.getElementById('informacion-container4');
 
-    // Iterar sobre cada elemento del arreglo
-    jsonArray.forEach(jsonInfo => {
-      num++;
+        // Iterar sobre cada elemento del arreglo
+        jsonArray.forEach(jsonInfo => {
+            num++;
 
-      // Crear elementos HTML para mostrar la información
-      var elementoInfo = document.createElement('card-body');
-      var res = rutaImg + jsonInfo.imagen;
+            // Crear elementos HTML para mostrar la información
+            var elementoInfo = document.createElement('card-body');
+            var res = rutaImg + jsonInfo.imagen;
 
-      elementoInfo.classList.add('info-container');
-      elementoInfo.innerHTML = `
+            elementoInfo.classList.add('info-container');
+            elementoInfo.innerHTML = `
       
     <div class="card">
         <div class="card-header" id="subseccion4-${num}">
@@ -45,8 +45,8 @@ fetch(rutaJSON)
   
       `;
 
-      // Agregar el elemento al contenedor
-      informacionContainer.appendChild(elementoInfo);
-    });
-  })
-  .catch(error => console.error('Error al obtener el JSON:', error));
+            // Agregar el elemento al contenedor
+            informacionContainer.appendChild(elementoInfo);
+        });
+    })
+    .catch(error => console.error('Error al obtener el JSON:', error));

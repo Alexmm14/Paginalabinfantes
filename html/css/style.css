@@ -1457,7 +1457,7 @@ ul.img_icon li {
 }
 
 .divform {
-     background-color: #003471;
+     background-color: #032154;
      border-radius: 50px;
      color: white;
 }
@@ -1506,10 +1506,10 @@ ul.img_icon li {
 .preguntasFrecuentes, .linkp {
      background-color: #967223;
      border-radius: 3px;
-     color: white;
+     color: white !important;
 }
 .preguntasFrecuentes:hover {
-     color: white !important; /* Cambia el color del texto cuando se pasa el ratón */
+     color: #003471 !important; /* Cambia el color del texto cuando se pasa el ratón */
 }
 .linkp:hover{
      background-color: #003471 ;
@@ -1561,12 +1561,32 @@ ul.img_icon li {
      background-color: tomato;
 }
 .fotoscarrusel{
-     width: 400px;
-     height: auto;
+     width: auto;
+     height: 300px;
+}
+.videoCarousel{
+     background: #967223;
 }
 
-/* styles.css (o el nombre que le hayas dado a tu archivo de estilos) */
 
+.carousel-control-next-icon, .carousel-control-prev-icon{
+     background-color: #003471;
+}
+.infoEntrevista a {
+     display: block; /* Hace que los enlaces ocupen toda la anchura disponible */
+     width: 100%; /* Ancho completo */
+     text-align: center; /* Centra el texto */
+     white-space: normal; /* Permite que el texto haga saltos de línea */
+ }
+
+ .infoEntrevista h5 {
+     margin: 0; /* Elimina el margen por defecto del h5 */
+     color: white !important;
+ }
+
+ .color-btn{
+     color: white !important;
+ }
 
   
 
