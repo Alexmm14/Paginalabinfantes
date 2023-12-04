@@ -31,7 +31,8 @@
    <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-
+   <link rel="icon" href="favicon.ico" type="image/x-icon" />
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
 </head>
 <!-- body -->
@@ -279,11 +280,11 @@
                      <div class="accordion" id="miAcordeon">
                         <!-- Sección 1 -->
                         <div class="card">
-                           <div class="card-header" id="seccion1">
+                           <div class="card-header linkp" id="seccion1">
                               <h2 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#contenido1">
-                                    <h2>Directora</h2>
+                                    <h2 class="investigadores">Directora</h2>
                                  </button>
                               </h2>
                            </div>
@@ -299,11 +300,11 @@
 
                         <!-- Sección 2 -->
                         <div class="card">
-                           <div class="card-header" id="seccion2">
+                           <div class="card-header linkp" id="seccion2">
                               <h2 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#contenido2">
-                                    <h2>Profesores-investigadores</h2>
+                                    <h2 class="investigadores">Profesores-investigadores</h2>
                                  </button>
                               </h2>
                            </div>
@@ -316,11 +317,11 @@
                         </div>
                         <!-- Fin de la Sección 2-->
                         <div class="card">
-                           <div class="card-header" id="seccion3">
+                           <div class="card-header linkp" id="seccion3">
                               <h2 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#contenido3">
-                                    <h2>Doctorantes</h2>
+                                    <h2 class="investigadores">Doctorantes</h2>
                                  </button>
                               </h2>
                            </div>
@@ -334,11 +335,11 @@
 
                         <!-- Fin de la Sección 3-->
                         <div class="card">
-                           <div class="card-header" id="seccion4">
+                           <div class="card-header linkp" id="seccion4">
                               <h2 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#contenido4">
-                                    <h2>Estudiantes de Licenciatura</h2>
+                                    <h2 class="investigadores">Estudiantes de Licenciatura</h2>
                                  </button>
                               </h2>
                            </div>
@@ -351,11 +352,11 @@
                         </div>
                         <!-- Fin de la Sección 3-->
                         <div class="card">
-                           <div class="card-header" id="seccion5">
+                           <div class="card-header linkp" id="seccion5">
                               <h2 class="mb-0">
                                  <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#contenido5">
-                                    <h2>Colaboradores</h2>
+                                    <h2 class="investigadores">Colaboradores</h2>
                                  </button>
                               </h2>
                            </div>
@@ -461,26 +462,37 @@
    <!--  footer -->
    <footer>
       <div class="footer pb-3">
-         <div class="row">
+         <div class="row container">
             <div class="col-12">
                <a class="logo2" href="#"><img src="images/image (2).png" alt="#" /></a>
             </div>
-            <div class="col-12 col-md-5 text-center"
+            <div class="col-12 col-md-5 ml-4 ml-md-5 ml-lg-0 text-center"
                style="display: flex; flex-direction: column; align-items: center;">
                <h3>Contactanos</h3>
                <ul class="location_icon">
-                  <li><a href="https://maps.app.goo.gl/MC3XTKLiS2bUGhGA6"><i class="fa fa-map-marker"
-                           aria-hidden="true"></i></a> Av. Universidad 3004, Sótano edificio "C".
-                     <br> Ciudad de México, CDMX
+                  <li>
+                     <a href="https://maps.app.goo.gl/MC3XTKLiS2bUGhGA6" class="ulcontactanos">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Av. Universidad 3004, Sótano edificio "C".<br> Ciudad de México, CDMX
+                     </a>
                   </li>
-                  <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                     laboratorio_de_infantes@servidor.unam.mx</li>
-                  <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a> (55) 56 22
-                     22 87</li>
+                  <li>
+                     <a href="mailto:laboratorio_de_infantes@servidor.unam.mx" class="ulcontactanos">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        laboratorio_de_infantes@servidor.unam.mx
+                     </a>
+                  </li>
+                  <li>
+                     <a href="tel:(55) 56 22 22 87" class="ulcontactanos">
+                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                        (55) 56 22 22 87
+                     </a>
+                  </li>
+
                </ul>
             </div>
 
-            <div class="col-12 col-md-5 text-center"
+            <div class="col-12 col-md-4 col-lg-5 text-center"
                style="display: flex; flex-direction: column; align-items: center;">
                <h3>Menús</h3>
                <ul class="link_icon">
@@ -494,24 +506,24 @@
                   <li> <a href="team.html"> Intégrate al equipo</a></li>
                </ul>
             </div>
-            <div class="col-12 col-md-2 text-center"
+            <div class="col-12 col-md-2 col-lg-2 text-center"
                style="display: flex; flex-direction: column; align-items: center;">
                <h3>Sitios de interés</h3>
                <div id="carruselfooter" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
                      <div class="carousel-item active">
-                        <a href="">
+                        <a href="https://www.unam.mx/" target="_blank">
                            <img src="images/Copia-de-Logotipo-UNAM.-Oro.-Fondo-transparente.png" class="d-block w-100"
                               alt="Imagen 1">
                         </a>
                      </div>
                      <div class="carousel-item">
-                        <a href="">
+                        <a href="https://www.psicologia.unam.mx/" target="_blank">
                            <img src="images/logo_psico (1).png" class="d-block w-100" alt="Imagen 2">
                         </a>
                      </div>
                      <div class="carousel-item">
-                        <a href="">
+                        <a href="https://conahcyt.mx/" target="_blank">
                            <img src="images/Logotipo_de_la_CONACYT-removebg-preview (1) (1).png" class="d-block w-100"
                               alt="Imagen 3">
                         </a>
