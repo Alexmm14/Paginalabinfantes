@@ -33,7 +33,7 @@ fetch(rutaJSON)
                         <div class="col-12 col-lg-3 col-md-3  text-center">
                             <img src="${res}" alt="Imagen de ${jsonInfo.nombre}" class="w-90">
                         </div>
-                        <div class="col-12 col-lg-9 col-md-9  mb-3">
+                        <div class="col-12 col-lg-9 col-md-9 mb-3 text-justify">
                             <p>${jsonInfo.semblanza}</p>
                         </div>
                     </div>
