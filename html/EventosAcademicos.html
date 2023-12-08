@@ -127,23 +127,85 @@
 
       </div>
    </header>
-   <div class="container">
-      <h1 class="text-center mb-3">Eventos académicos del laboratorio de infantes</h1>
-      <div id="carrusel"></div>
-      <div class="text-center p-2">
-         <button id="anterior" class="btn colorbonton mr-2">Anterior</button>
-         <button id="siguiente" class="btn colorbonton">Siguiente</button>
-      </div>
-   </div>
    <!-- end header inner -->
    <!-- end header -->
+
+
+   <div class="container">
+      <h1 class="text-center mb-3">Eventos académicos del laboratorio de infantes</h1>
+      <div class="carruselIndicador">
+
+      </div>
+      <div id="carruselIndicador" class="carruselIndicador">
+
+      </div>
+      <div id="carrusel" class="carrusel">
+      </div>
+   </div>
+   
 
    <style>
       .bloque {
          font-size: 16.8px !important;
       }
    </style>
-   <script src="./js/jsons/eventosAcademicos.js"></script>
+
+   <script>
+      var rutaJSON = 'JSON/eventosAcademicos.json';
+
+      fetch(rutaJSON)
+         .then(response => response.json())
+         .then(jsonArray => {
+            // Obtener el contenedor
+            var carruselIndicacdor = document.getElementById('carruselIndicador');
+            var num1 = 0;
+            jsonArray.forEach(jsonInfo => {
+
+               var elementoIndicador = document.createElement('ol');
+               elementoIndicador.classList.add('carousel-indicators');
+               if (num1 === 0) {
+                  elementoIndicador.innerHTML = `
+                  <li data-target="#carrusel1" data-slide-to="${num1}" class="active"></li>
+               `;
+               } else {
+                  elementoIndicador.innerHTML = `
+                  <li data-target="#carrusel1" data-slide-to="${num1}"></li>
+               `;
+               }
+               num1++;
+
+               carruselIndicacdor.appendChild(elementoIndicador);
+            });
+
+            //obtener elemento del carrusel
+            var carrusel = document.getElementById('carrusel');
+            var num2 = 1;
+
+            // Iterar sobre cada elemento del arreglo
+            jsonArray.forEach(jsonInfo => {
+               // Crear elementos HTML para mostrar la información
+               var elementoEntrevista = document.createElement('div');
+               if (num2 === 1) {
+                  elementoEntrevista.classList.add('carousel-item', 'active');
+                  elementoEntrevista.innerHTML = `
+                  <h2>${jsonInfo.Nombre}</h2>
+                  <img src="./images/eventosAcademicos/${jsonInfo.foto}" alt="Imagen ${num2}" class="img-fluid">
+                  <p class="mb-3">${jsonInfo.descripcion}</p>
+               `;
+               } else{
+                  elementoEntrevista.classList.add('carousel-item');
+                  elementoEntrevista.innerHTML = `
+                  <h2>${jsonInfo.Nombre}</h2>
+                  <img src="images/${jsonInfo.foto}" alt="Imagen ${num2}" class="img-fluid">
+                  <p class="mb-3">${jsonInfo.descripcion}</p>
+               `;
+               }
+               // Agregar el elemento al contenedor
+               carrusel.appendChild(elementoEntrevista);
+            });
+         })
+         .catch(error => console.error('Error al obtener el JSON:', error));
+   </script>
 
 
 
