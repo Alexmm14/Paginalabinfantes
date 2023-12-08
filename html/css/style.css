@@ -1613,7 +1613,9 @@ ul.img_icon li {
 .investigadores{
      color: white;
 }
-
+.btn-linkcolor{
+     color: #003471 !important;
+}
 
 
 /** end footer **/

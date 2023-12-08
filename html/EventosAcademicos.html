@@ -127,117 +127,26 @@
 
       </div>
    </header>
-
-   <!-- end header inner -->
-   <!-- end header -->
-   <style>
-      .list-group {
-         position: sticky;
-         top: 0;
-         height: 100%;
-         /* Opcional, ajusta la altura según tus necesidades */
-      }
-   </style>
-
-
    <div class="container">
-      <h2 class="font-weight-bold mt-4 text-center">Investigadores</h2>
-      <div class="accordion mx-0 mx-md-5" id="miAcordeon">
-         <p class="text-justify mb-3 bloque">El equipo del Laboratorio de Infantes de la Facultad de Psicología de la UNAM está conformado por una mezcla ecléctica de talentos. En nuestras filas, contamos con estudiantes de licenciatura que aportan vitalidad y frescura al ambiente. Los profesores e investigadores, con su experiencia, brindan orientación y dirección, mientras que los doctorantes lideran investigaciones avanzadas. Los colaboradores desempeñan roles operativos esenciales.
-            <br>Este conjunto diverso opera bajo la dirección de la doctora Elda Alicia Canto, quien lidera con sabiduría y eficacia. Juntos, nos sumergimos en la comprensión del desarrollo infantil, contribuyendo al progreso del conocimiento en este campo</p>
-         <!-- Sección 1 -->
-         <div class="card">
-            <div class="card-header linkp" id="seccion1">
-               <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#contenido1">
-                     <h2 class="investigadores">Directora</h2>
-                  </button>
-               </h2>
-            </div>
-
-            <div id="contenido1" class="collapse" aria-labelledby="seccion1" data-parent="#miAcordeon">
-               <!-- Subsección 1 -->
-               <div id="informacion-container">
-                  <script src="./js/jsons/directores.js"></script>
-               </div>
-            </div>
-         </div>
-         <!-- Fin de la Sección 1 -->
-
-         <!-- Sección 2 -->
-         <div class="card">
-            <div class="card-header linkp" id="seccion2">
-               <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#contenido2">
-                     <h2 class="investigadores">Profesores-investigadores</h2>
-                  </button>
-               </h2>
-            </div>
-
-            <div id="contenido2" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
-               <div id="informacion-container2">
-                  <script src="./js/jsons/Profesores-investigadores.js"></script>
-               </div>
-            </div>
-         </div>
-         <!-- Fin de la Sección 2-->
-         <div class="card">
-            <div class="card-header linkp" id="seccion3">
-               <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#contenido3">
-                     <h2 class="investigadores">Doctorantes</h2>
-                  </button>
-               </h2>
-            </div>
-
-            <div id="contenido3" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
-               <div id="informacion-container3">
-                  <script src="./js/jsons/Doctorantes.js"></script>
-               </div>
-            </div>
-         </div>
-
-         <!-- Fin de la Sección 3-->
-         <div class="card">
-            <div class="card-header linkp" id="seccion4">
-               <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#contenido4">
-                     <h2 class="investigadores">Estudiantes de Licenciatura</h2>
-                  </button>
-               </h2>
-            </div>
-
-            <div id="contenido4" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
-               <div id="informacion-container4">
-                  <script src="./js/jsons/EstudiantesdeLicenciatura.js"></script>
-               </div>
-            </div>
-         </div>
-         <!-- Fin de la Sección 3-->
-         <div class="card">
-            <div class="card-header linkp" id="seccion5">
-               <h2 class="mb-0">
-                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#contenido5">
-                     <h2 class="investigadores">Colaboradores</h2>
-                  </button>
-               </h2>
-            </div>
-
-            <div id="contenido5" class="collapse" aria-labelledby="seccion2" data-parent="#miAcordeon">
-               <div id="informacion-container5">
-                  <script src="./js/jsons/Colaboradores.js"></script>
-               </div>
-            </div>
-         </div>
-         <!-- Puedes seguir agregando más secciones y subsecciones según sea necesario -->
+      <h1 class="text-center mb-3">Eventos académicos del laboratorio de infantes</h1>
+      <div id="carrusel"></div>
+      <div class="text-center p-2">
+         <button id="anterior" class="btn colorbonton mr-2">Anterior</button>
+         <button id="siguiente" class="btn colorbonton">Siguiente</button>
       </div>
    </div>
+   <!-- end header inner -->
+   <!-- end header -->
 
    <style>
       .bloque {
          font-size: 16.8px !important;
       }
    </style>
+   <script src="./js/jsons/eventosAcademicos.js"></script>
+
+
+
 
 
    <!--  footer -->
