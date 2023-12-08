@@ -26,7 +26,7 @@ fetch(rutaJSON)
         
           <div class="card">
             <div class="card-header" id="subseccion2-${num}">
-              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#subcontenido2-${num}" aria-expanded="true">
+              <button class="btn btn-link btn-linkcolor" type="button" data-toggle="collapse" data-target="#subcontenido2-${num}" aria-expanded="true">
                 ${jsonInfo.nombre}
               </button>
             </div>
@@ -37,8 +37,8 @@ fetch(rutaJSON)
                   <div class="col-12 col-lg-3 col-md-3  text-center">
                     <img src="${res}" alt="Imagen de ${jsonInfo.nombre}" class="w-90">
                   </div>
-                  <div class="col-12 col-lg-9 col-md-9  mb-3">
-                    <p>${jsonInfo.semblanza}</p>
+                  <div class="col-12 col-lg-9 col-md-9 mb-3 text-justify">
+                    <p class="bloque">${jsonInfo.semblanza}</p>
                   </div>
                 </div>
               </div>
