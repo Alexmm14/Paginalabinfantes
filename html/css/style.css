@@ -168,7 +168,7 @@ a,
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
 
-     
+
 }
 
 img {
@@ -1286,7 +1286,7 @@ ul.social_icont li a {
 
 .logo2 {
      float: left;
-     max-width: 100%; 
+     max-width: 100%;
      height: 100%;
 }
 
@@ -1474,11 +1474,13 @@ ul.img_icon li {
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
 }
+
 .colorbonton:hover {
-     background-color: #003471; /* Cambia "nuevo-color" al color deseado */
- }
-*/
-.custom-container {
+     background-color: #003471;
+     /* Cambia "nuevo-color" al color deseado */
+}
+
+*/ .custom-container {
      max-width: 1172px;
      /* Ajusta el ancho máximo del contenedor según tus necesidades */
      margin: 0 auto;
@@ -1503,18 +1505,22 @@ ul.img_icon li {
      list-style: none;
 }
 
-.preguntasFrecuentes, .linkp {
+.preguntasFrecuentes,
+.linkp {
      background-color: #967223;
      border-radius: 3px;
      color: white !important;
 }
+
 .preguntasFrecuentes:hover {
-     color: #003471 !important; /* Cambia el color del texto cuando se pasa el ratón */
+     color: #003471 !important;
+     /* Cambia el color del texto cuando se pasa el ratón */
 }
-.linkp:hover{
-     background-color: #003471 ;
+
+.linkp:hover {
+     background-color: #003471;
      color: white;
-     border-radius:3px ;
+     border-radius: 3px;
 }
 
 /* Ajusta el ancho del modal */
@@ -1542,7 +1548,9 @@ ul.img_icon li {
 }
 
 .color1 {
-     background-color: yellowgreen;
+     background-color: #032154f3;
+     border-radius: 10px;
+     color: white;
 }
 
 .color2 {
@@ -1560,62 +1568,89 @@ ul.img_icon li {
 .color5 {
      background-color: tomato;
 }
-.fotoscarrusel{
-     width: auto;
-     height: 300px;
+
+.fotoscarrusel {
+     width: 1839px;
+     height: 400px;
 }
-.videoCarousel{
+
+.videoCarousel {
      background: #967223;
 }
 
 
-.carousel-control-next-icon, .carousel-control-prev-icon{
-     background-color: #003471;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+     background-color: #967223;
+     border-radius: 50%;
+     padding: 15px;
+     background-size: 15px;
+
 }
+
 .infoEntrevista a {
-     display: block; /* Hace que los enlaces ocupen toda la anchura disponible */
-     width: 100%; /* Ancho completo */
-     text-align: center; /* Centra el texto */
-     white-space: normal; /* Permite que el texto haga saltos de línea */
- }
+     display: block;
+     /* Hace que los enlaces ocupen toda la anchura disponible */
+     width: 100%;
+     /* Ancho completo */
+     text-align: center;
+     /* Centra el texto */
+     white-space: normal;
+     /* Permite que el texto haga saltos de línea */
+}
 
- .infoEntrevista h5 {
-     margin: 0; /* Elimina el margen por defecto del h5 */
+.infoEntrevista h5 {
+     margin: 0;
+     /* Elimina el margen por defecto del h5 */
      color: white !important;
- }
+}
 
- .color-btn{
+.color-btn {
      color: white !important;
- }
+}
+
 #carruselfooter {
-    max-width: 200px; /* O el tamaño que prefieras para el carrusel */
-    margin: 0 auto; /* Centrar horizontalmente */
+     max-width: 200px;
+     /* O el tamaño que prefieras para el carrusel */
+     margin: 0 auto;
+     /* Centrar horizontalmente */
 }
 
 .carousel-inner img {
-    max-width: 100%; /* Hacer que las imágenes sean responsivas y se ajusten al contenedor */
+     max-width: 100%;
+     /* Hacer que las imágenes sean responsivas y se ajusten al contenedor */
 }
 
 .carousel-indicators {
-    justify-content: center; /* Centrar los indicadores horizontalmente */
-    margin-top: 10px; /* Agregar espacio superior para separar de las imágenes */
+     justify-content: center;
+     /* Centrar los indicadores horizontalmente */
+     margin-top: 10px;
+     /* Agregar espacio superior para separar de las imágenes */
 }
+
 .containerfooter {
      max-width: 100%;
      padding-left: 0px !important;
      padding-right: 0px !important;
 }
 
-.ulcontactanos{
+.ulcontactanos {
      font-size: 18px !important;
 }
-  
-.investigadores{
+
+.investigadores {
      color: white;
 }
-.btn-linkcolor{
+
+.btn-linkcolor {
      color: #003471 !important;
 }
 
+.bloque {
+     font-size: 16.8px !important;
+}
+.colorletra{
+     color: white;
+}
 
 /** end footer **/

@@ -132,11 +132,11 @@
 
 
    <div class="container">
-      <h1 class="text-center mb-3">Eventos académicos del laboratorio de infantes</h1>
-      <div id="carrusel1" class="carousel slide" data-ride="carousel">
+      <h1 class="text-center mb-3 font-weight-bold">Eventos académicos del laboratorio de infantes</h1>
+      <div id="carrusel1" class="carousel slide color1" data-ride="carousel">
          <ol class="carousel-indicators" id="olcarrusel">
          </ol>
-         <div class="carousel-inner text-center" id="carrusel">
+         <div class="carousel-inner text-center row" id="carrusel">
          </div>
          <a class="carousel-control-prev" href="#carrusel1" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -149,11 +149,7 @@
       </div>
    </div>
    
-   <style>
-      .bloque {
-         font-size: 16.8px !important;
-      }
-   </style>
+   
    
    <script>
       var rutaJSON = 'JSON/eventosAcademicos.json';
@@ -191,9 +187,15 @@
                }
                
                elementoEntrevista.innerHTML = `
-                  <h2>${jsonInfo.Nombre}</h2>
-                  <img src="./images/eventosAcademicos/${jsonInfo.foto}" alt="Imagen ${num2}" class="img-fluid fotoscarrusel">
-                  <p class="mb-3">${jsonInfo.descripcion}</p>
+                  <div class="col-12">
+                     <h2 class="colorletra">${jsonInfo.Nombre}</h2>
+                  </div>
+                  <div class="col-12 fotoscarrusel">
+                     <img src="./images/eventosAcademicos/${jsonInfo.foto}" alt="Imagen ${num2}" class="img-fluid img-fluid">
+                  </div>
+                  <div class="mb-3 mt-3 col-12">
+                     <p class=" bloque ">${jsonInfo.descripcion}</p>
+                  </div>
                `;
                
                carrusel.appendChild(elementoEntrevista);
@@ -202,6 +204,7 @@
          })
          .catch(error => console.error('Error al obtener el JSON:', error));
    </script>
+  
    
 
 
