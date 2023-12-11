@@ -52,6 +52,9 @@ body {
 .container {
      max-width: 100%;
 }
+.container2{
+     max-width: 90%;
+}
 
 #padingtop {
      padding-top: 50px;

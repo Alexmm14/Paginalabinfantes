@@ -65,46 +65,77 @@
          <div class="header_midil">
             <div class="container">
                <div class="row">
-                  <div class="col-sm-10 text-center"> <!-- Esta columna ocupará 8 de 12 columnas (1/3 del ancho) -->
-                     <a class="logo " href="#"><img src="images/image (2).png" alt="#"
-                           class="img-fluid max-width" /></a>
+                  <div class="col-sm-2 text-center d-none d-sm-block mt-4">
+                     <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
+                     <a class="logo2 " href="https://www.unam.mx/">
+                        <img src="images/logo-unam-png-blanco-ok.png" alt="#" class="img-fluid" />
+                     </a>
+                  </div>
+                  <div class="col-sm-8 text-center mt-4"> <!-- Esta columna ocupará 8 de 12 columnas (1/3 del ancho) -->
+                     <a class="logo " href="index.html">
+                        <img src="images/image (2).png" alt="#" class="img-fluid max-width" />
+                        </a>
                   </div>
                   <div class="col-sm-2 text-center d-none d-sm-block">
                      <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
-                     <a class="logo2 " href="#"><img src="images/Olivia_Wilson__1_-removebg-preview (4) (1).png" alt="#"
-                           class="img-fluid" /></a>
+                     <a class="logo2 " href="index.html">
+                        <img src="images/Olivia_Wilson__1_-removebg-preview (4) (1).png" alt="#" class="img-fluid" />
+                     </a>
                   </div>
                </div>
             </div>
          </div>
 
          <div class="header_bo">
-            <div class="col-md-9 col-sm-7 mx-auto">
-               <nav class="navigation navbar navbar-expand-md navbar-dark ">
+            <div class="col-md-12 col-sm-7 mx-auto mitz">
+               <nav class="navigation navbar navbar-expand-md navbar-dark">
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
                      aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarsExample04">
-                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item px-sm-1">
-                           <a class="nav-link " href="index.html">Nuestro Laboratorio</a>
+                  <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarsExample04">
+                     <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Nuestro Laboratorio
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <!-- Puedes agregar más elementos dentro de este div para crear la lista -->
+                              <a class="dropdown-item" href="./lineasInvestigacion.html">Lineas de investigación</a>
+                              <a class="dropdown-item" href="investigadores.html">Investigadores</a>
+                              <a class="dropdown-item" href="EventosAcademicos.html">Eventos Académicos</a>
+                              <a class="dropdown-item" href="laboEnLosMedios.html">El laboratorio en los medios</a>
+                           </div>
                         </li>
-                        <li class="nav-item px-sm-1">
-                           <a class="nav-link" href="about.html">Investigación científica</a>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Investigación científica
+                           </a>
+                           <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                              <!-- Puedes agregar más elementos dentro de este div para crear la lista -->
+                              <a class="dropdown-item" href="proyectos.html">Proyectos</a>
+                              <a class="dropdown-item" href="productosInvestigacion.html">Productos de Investigación</a>
+                           </div>
                         </li>
-                        <li class="nav-item px-sm-1">
-                           <a class="nav-link" href="Participabb.html">¡Ven y participa!</a>
+                        <li class="nav-item">
+                           <a class="nav-link" href="./Participabb.html">¡Participa con tu bebé!</a>
                         </li>
-                        <li class="nav-item px-sm-1">
-                           <a class="nav-link active" href="team.html">Intégrate al equipo</a>
+                        <li class="nav-item">
+                           <a class="nav-link active" href="./team.html">Intégrate al equipo</a>
                         </li>
                      </ul>
                   </div>
+               </nav>
+            </div>
+            
 
                </nav>
             </div>
          </div>
+
+
       </div>
    </header>
    <!-- end header inner -->
@@ -121,7 +152,7 @@
          </div>
          <!-- Texto a la derecha -->
          <div class="col-md-8">
-            <p class="parrafoUnete">Participa en el avance de la investigación científica en México uniéndote al equipo
+            <p class="parrafoUnete bloque">Participa en el avance de la investigación científica en México uniéndote al equipo
                de trabajo del Laboratorio de Infantes de la Facultad de Psicología de la UNAM; un laboratorio único en
                su clase en Latinoamérica, te ofrecemos: </p>
          </div>
@@ -148,27 +179,30 @@
       <div class="tab-content" id="myTabContent">
          <div class="tab-pane fade show active" id="pestaña1" role="tabpanel" aria-labelledby="pestaña1-tab">
             <div class="container">
-               <div class="row pt-4">
+               <div class="row pt-4 align-items-center">
                   <!-- Imagen de la pestaña 1 -->
-                  <div class="col-md-6">
-                     <img src="images/servicioSocial.jpg" alt="Imagen pestaña 1" class="img-fluid">
+                  <div class="col-md-12 col-lg-6 mb-3">
+                     <img src="images/servicioSocial.jpg" alt="Imagen pestaña 1" class="card-img-top img-fluid">
                   </div>
                   <!-- Texto de la pestaña 1 -->
-                  <div class="col-md-6">
-                     <p class="text-center mb-3"><strong>¡Ven y forma parte del equipo de servicio social en el Laboratorio
+                  <div class="col-md-12 col-lg-6">
+                     <p class="text-center mb-3 bloque"><strong>¡Ven y forma parte del equipo de servicio social en el Laboratorio
                            de Infantes!</strong></p>
-                     <p class="">Estás cordialmente invitado a ser parte de nuestro equipo en el Laboratorio de Infantes
+                     <p class="bloque">Estás cordialmente invitado a ser parte de nuestro equipo en el Laboratorio de Infantes
                         mientras realizas tu servicio social. Te ofrecemos opciones emocionantes para contribuir a nuestro
                         trabajo:</p>
                      <ul class="list-unstyled pt-4">
-                        <li class="custom-bullet-list mb-3"><strong>Psicólogos: </strong>Explora el fascinante mundo de la
+                        <li class="custom-bullet-list mb-3 bloque"><strong>Psicólogos: </strong>Explora el fascinante mundo de la
                            adquisición del lenguaje en infantes mexicanos, ampliando tus conocimientos en psicología.</li>
-                        <li class="custom-bullet-list mb-3"><strong>Ingenieros en computación / Informaticos UNAM:
+                        <li class="custom-bullet-list mb-3 bloque"><strong>Ingenieros en computación / Informaticos UNAM:
                            </strong>Colabora en la creación, soporte y mantenimiento de sistemas y redes que respaldan los
                            procesos tecnológicos de nuestro laboratorio,</li>
-                        <li class="custom-bullet-list"><strong>Ingenieros en sistemas IPN:</strong>Únete a nosotros para
+                        <li class="custom-bullet-list mb-3 bloque"><strong>Ingenieros en sistemas IPN:</strong>Únete a nosotros para
                            dar soporte a nuestros sistemas y redes, contribuyendo a mantener nuestras operaciones
                            tecnológicas de manera eficiente.</li>
+                        <li class="custom-bullet-list bloque"><strong>
+                           Lingüistas: </strong>Sumérgete en el intrigante universo del desarrollo lingüístico en infantes mexicanos, ampliando tu comprensión de la diversidad lingüística y su impacto en la adquisición del lenguaje. Tu expertise será fundamental para explorar cómo los pequeños comunicadores construyen sus habilidades lingüísticas en nuestro contexto cultural. ¡Únete a nosotros para aportar tu perspectiva única y contribuir al fascinante mundo de la lingüística infantil!
+                        </li>
                      </ul>
                   </div>
                </div>
@@ -177,15 +211,15 @@
          <div class="tab-pane fade" id="pestaña2" role="tabpanel" aria-labelledby="pestaña2-tab">
             <div class="row pt-4">
                <!-- Imagen de la pestaña 2 -->
-               <div class="col-md-6">
-                  <img src="images/voluntariado (2).jpg" alt="Imagen pestaña 2" class="img-fluid">
+               <div class="col-md-12 col-lg-6 mb-3">
+                  <img src="images/voluntariado (2).jpg" alt="Imagen pestaña 2" class="card-img-top img-fluid">
                </div>
                <!-- Texto de la pestaña 2 -->
-               <div class="col-md-6">
-                  <p>Invitamos a estudiantes o pasantes de las carreras de psicología, diseño gráfico, Ingeniería en
-                     sistemas computacionales, ingeniería en computación y Lingüística a colaborar con nosotros.
-                  <p>
-                  <p> <strong>Ofrecemos constancia</strong></p>e
+               <div class="col-md-12 col-lg-6 text-justify">
+                  <p class="bloque">
+                     ¡Atención jóvenes apasionados! Abrimos las puertas a estudiantes o pasantes de psicología, diseño gráfico, ingeniería en sistemas computacionales, ingeniería en computación y lingüística para sumarse como voluntarios a nuestro vibrante equipo en el Laboratorio de Infantes.
+                     <br>
+                     ¿Buscas una experiencia que trascienda y marque la diferencia? ¡Aquí está tu oportunidad! Colabora con nosotros y descubre un mundo de aprendizaje, exploración y crecimiento personal. <br>Como reconocimiento a tu valiosa contribución voluntaria, te brindaremos una constancia que respaldará tu participación. ¡Aprovecha esta oportunidad para hacer de tu tiempo algo significativo y forma parte de nuestra emocionante travesía! 🌟🚀</p>
                </div>
             </div>
    
@@ -193,12 +227,12 @@
          <div class="tab-pane fade" id="pestaña3" role="tabpanel" aria-labelledby="pestaña3-tab">
             <div class="row pt-4">
                <!-- Imagen de la pestaña 3 -->
-               <div class="col-md-6">
-                  <img src="images/svicioSocial11.jpg" alt="Imagen pestaña 3" class="img-fluid">
+               <div class="col-md-12 col-lg-6 mb-3">
+                  <img src="images/pexels-fox-1595391.jpg" alt="Imagen pestaña 3" class="card-img-top img-fluid">
                </div>
                <!-- Texto de la pestaña 3 -->
-               <div class="col-md-6">
-                  <p>¿Eres un apasionado de la investigación y la educación? ¿Posees un doctorado y estás buscando una
+               <div class="col-md-12 col-lg-6">
+                  <p class="bloque">¿Eres un apasionado de la investigación y la educación? ¿Posees un doctorado y estás buscando una
                      oportunidad para expandir tus horizontes académicos? ¡Tenemos la oferta perfecta para ti!</p>
                   <p class="mb-3">El Laboratorio de Infantes te invita a unirte a nuestro equipo para una estancia
                      postdoctoral en un entorno estimulante y colaborativo. Nuestro laboratorio se especializa en
@@ -213,13 +247,12 @@
    
             <div class="row">
                <!-- Imagen de la pestaña 4 -->
-               <div class="col-md-6">
+               <div class="col-md-12 col-lg-6 mb-3">
                   <img src="images/International.jpg" alt="Imagen pestaña 4" class="img-fluid">
                </div>
                <!-- Texto de la pestaña 4 -->
-               <div class="col-md-6">
-                  <p>We always welcome visiting students and researches from other labs. Mainly, those interested in
-                     performing cross - linguistic studies.</p>
+               <div class="col-md-12 col-lg-6 mb-3">
+                  <p class="bloque">Here in our Children's Laboratory at the UNAM Faculty of Psychology, we embrace global collaboration! If you are a student or researcher from the other side of the map and have a penchant for delving into cross-linguistic studies, guess what? You are exactly what we are looking for! We would love to collaborate with you. Join us :) Ready for an academic adventure that crosses borders? Pack your curiosity and contact us – we have a place just for you! 🌎🔬</p>
                </div>
             </div>
    

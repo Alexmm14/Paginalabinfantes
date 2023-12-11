@@ -110,7 +110,7 @@
                            </div>
                         </li>
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown2" role="button"
+                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Investigación científica
                            </a>
@@ -139,163 +139,77 @@
 
       </div>
    </header>
-
+   
+   
+   
    <!-- end header inner -->
    <!-- end header -->
-   <style>
-      .list-group {
-         position: sticky;
-         top: 0;
-         height: 100%;
-         /* Opcional, ajusta la altura según tus necesidades */
-      }
-   </style>
-   <div class="container pt-4 awadeuwu">
-      <div class="tab-pane fade show active" id="pestaña1" role="tabpanel" aria-labelledby="pestaña1-tab">
-         <!-- Contenido de la pestaña 1 -->
-         <h1 class="text-center font-weight-bold">Lineas de investigación</h1>
-         <div id="carrusel1" class="carousel slide" data-ride="carousel">
-            <!-- Indicadores -->
-            <ol class="carousel-indicators">
-               <li data-target="#carrusel1" data-slide-to="0" class="active"></li>
-               <li data-target="#carrusel1" data-slide-to="1"></li>
-               <li data-target="#carrusel1" data-slide-to="2"></li>
-            </ol>
-            <!-- Contenido del carrusel -->
-            <div class="carousel-inner text-center">
-               <div class="carousel-item active">
-                  <img src="images/carrbb1.jpg" alt="Imagen 1" class="img-fluid">
-                  <p class="mb-3">awitadeuwu</p>
-               </div>
-               <div class="carousel-item">
-                  <img src="images/carrbb2.jpg" alt="Imagen 2" class="img-fluid">
-               </div>
-               <div class="carousel-item">
-                  <img src="images/carrbb3.jpg" alt="Imagen 3" class="img-fluid">
-               </div>
+
+
+   <div class="container mt-3">
+      <div class="row">
+      <div class="col-12 text-center">
+         <h2 class="font-weight-bold">Entrevistas</h2>
+      </div>
+      <div class="row col-12 infoEntrevista d-flex justify-content-center align-items-center"
+         id="infoEntrevistaContainer">
+
+      </div>
+
+      <div class="col-12 text-center mt-3">
+         <h2 class="font-weight-bold">Video Galeria</h2>
+      </div>
+      <div class="container text-center mr-2 mr-lg-4">
+         <div id="videoCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+            <div class="carousel-inner">
+               <!-- Videos se agregarán aquí dinámicamente mediante JavaScript -->
             </div>
-         </div>
-
-         <div class="py-3 mx-0 mx-md-5">
-            <p class="mb-3 bloque">Nuestra investigación está centrada en el estudio de la adquisición de la lengua
-               materna y su desarrollo durante los primeros años de vida.
-               Para nuestros estudios empleamos diferentes metodologías.</p>
-         </div>
-
-         <div class="body-secction">
-            <div class="container">
-               <div class="accordion mx-0 mx-md-5" id="myAccordion">
-                  <div class="card">
-                     <div class="card-header text-center" id="heading1">
-                        <h5 class="mb-0">
-                           <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1">
-                              Estudios de campo
-                           </button>
-                        </h5>
-                     </div>
-
-                     <div id="collapse1" class="collapse" data-parent="#myAccordion">
-                        <div class="card-body text-justify">
-                           <p class="bloque mb-3">
-                              Realizamos registros de habla espontánea con la finalidad de explorar el
-                              vocabulario de los infantes, así como su interacción verbal con otros infantes o
-                              adultos. Asimismo, recopilamos definiciones de palabras proporcionadas por niños
-                              entre 5 y 11 años.
-                           </p>
-                           <p class="bloque">
-                              A partir de video-grabaciones semanales, que forman parte de un estudio
-                              longitudinal de 2 años, exploramos el desarrollo del habla de 160 niños de entre
-                              18 meses y 4 años de edad. También estudiamos la interacción verbal entre niños y
-                              cuidadoras en instituciones públicas y privadas.
-                           </p>
-
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="card">
-                     <div class="card-header text-center" id="heading2">
-                        <h5 class="mb-0">
-                           <button class="btn btn-link custom-text-wrap" type="button" data-toggle="collapse"
-                              data-target="#collapse2">
-                              Investigación experimental
-                           </button>
-                        </h5>
-                     </div>
-
-                     <div id="collapse2" class="collapse" data-parent="#myAccordion">
-                        <div class="card-body text-justify">
-                           <p class="bloque mb-3">Actualmente, con el propósito de mantenernos a la vanguardia,
-                              contamos con métodos únicos en el país como: </p>
-                           <ul class="list-unstyled pt-4 mb-3 bloque ml-4">
-                              <li class="custom-bullet-list mb-3">Paradigma intermodal de atención preferencial
-                              </li>
-                              <li class="custom-bullet-list mb-3">Paradigma de habituación</li>
-                              <li class="custom-bullet-list mb-3">Procedimiento de condicionamiento de giro de
-                                 cabeza</li>
-                              <li class="custom-bullet-list mb-3">Atención preferencial auditiva</li>
-                              <li class="custom-bullet-list">Técnica de reflejo de succión artificial</li>
-                           </ul>
-                           <p class="bloque">Por medio de estos instrumentos se exploran diferentes procesos cognitivos
-                              y
-                              perceptuales como la discriminación de sonidos o unidades fonológicas, la
-                              formación de categorías auditivas y visuales, la comprensión de vocabulario, el
-                              aprendizaje de asociaciones entre nuevas palabras y nuevos objetos, el
-                              procesamiento semántico y la exploración de la adquisición de uso de palabras que
-                              indican cantidad, tamaño, género, movimiento, acción, espacio, entre otros.Se
-                              analizan además, los datos de los reportes parentales sobre el vocabulario de los
-                              niños.</p>
-                        </div>
-                     </div>
-                  </div>
-
-                  <div class="card bloque">
-                     <div class="card-header text-center" id="heading3">
-                        <h5 class="mb-0">
-                           <button class="btn btn-link custom-text-wrap" type="button" data-toggle="collapse"
-                              data-target="#collapse3">
-                              Otras investigaciones del laboratorio
-                           </button>
-                        </h5>
-                     </div>
-
-                     <div id="collapse3" class="collapse" data-parent="#myAccordion">
-                        <div class="card-body text-justify">
-                           <h2 class="mb-3 font-weight-bold text-center">Lectura Conjunta</h2>
-                           <p class="bloque mb-3">
-                              Es una tarea en donde interactúan el infante y su cuidador principal de forma que
-                              ambos observan, leen y narran en voz alta una historia a partir de unos libros
-                              compuestos por imágenes.
-                           </p>
-                           <p class="bloque mb-3">
-                              Esta tarea, en donde la narración se da en un ambiente controlado, nos permite
-                              observar la interacción entre cuidador e infante y obtener una muestra del
-                              vocabulario que producen los integrantes de la diada en cuanto a su tamaño y
-                              complejidad. Asimismo, la hemos empleado para analizar la comunicación gestual en
-                              la diada y su relación con el vocabulario.
-                           </p>
-                           <h2 class="font-weight-bold text-center">Juego Libre</h2>
-                           <p class="bloque">
-                              Mediante una tarea de juego libre organizada en 3 condiciones diferentes: juego
-                              diádico con padre-bebé, juego diádico madre-bebé y juego tríadico con ambos
-                              padres hemos observado las prácticas de crianza presentadas por una muestra de
-                              madres y padres mexicanos. Asimismo, se investiga si las prácticas de crianza que
-                              presenta el padre afectan el desarrollo del vocabulario en igual o mayor medida
-                              que las prácticas de crianza de la madre.
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-                  <style>
-                     .bloque {
-                        font-size: 16.8px !important;
-                     }
-                  </style>
+            <div class="row justify-content-center">
+               <div class="col-6 text-center">
+                  <button class="btn colorbonton" onclick="cambiarVideo('anterior')">
+                     Anterior
+                  </button>
+               </div>
+               <div class="col-6 text-center">
+                  <button class="btn colorbonton" onclick="cambiarVideo('siguiente')">
+                     Siguiente
+                  </button>
                </div>
             </div>
          </div>
       </div>
+      <script src="./js/jsons/carruselvideos.js"></script>
+      <script>
+         var rutaJSON = 'JSON/LabEnMedisoEntrevistas.json';
+
+         fetch(rutaJSON)
+            .then(response => response.json())
+            .then(jsonArray => {
+               // Obtener el contenedor
+               var entrevistaContainer = document.getElementById('infoEntrevistaContainer');
+
+               // Iterar sobre cada elemento del arreglo
+               jsonArray.forEach(jsonInfo => {
+                  // Crear elementos HTML para mostrar la información
+                  var elementoEntrevista = document.createElement('div');
+
+                  elementoEntrevista.classList.add('col-12', 'text-center', 'm-1', 'col-md-5');
+                  elementoEntrevista.innerHTML = `
+                  <a href="${jsonInfo.link}" target="_blank" class="btn text-justify linkp">
+                    <h5>${jsonInfo.nombre}</h5>
+                  </a>
+                  `;
+
+                  // Agregar el elemento al contenedor
+                  entrevistaContainer.appendChild(elementoEntrevista);
+               });
+            })
+            .catch(error => console.error('Error al obtener el JSON:', error));
+      </script>
    </div>
+   </div>
+  
+   
 
 
 
@@ -321,7 +235,7 @@
                   <li>
                      <a href="mailto:laboratorio_de_infantes@servidor.unam.mx" class="ulcontactanos">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        laboratorio_de_infantes@servidor.unam.mx
+                        laboratorio_de_infantes@unam.mx
                      </a>
                   </li>
                   <li>
