@@ -1,6 +1,7 @@
 // Ruta al archivo JSON
 var rutaJSON = 'JSON/Colaboradores.json';
 var rutaImg = 'images/participantes/';
+var rutapdf = 'PDFS/PDFSemblanzas/';
 var num = 0;
 
 // Realizar solicitud (request) para obtener el JSON
@@ -17,6 +18,7 @@ fetch(rutaJSON)
             // Crear elementos HTML para mostrar la información
             var elementoInfo = document.createElement('div');
             var res = rutaImg + jsonInfo.imagen;
+            var res1 = rutapdf + jsonInfo.pdf;
 
             elementoInfo.classList.add('info-container');
             elementoInfo.innerHTML = `
@@ -35,6 +37,7 @@ fetch(rutaJSON)
                             </div>
                             <div class="col-12 col-lg-9 col-md-9 mb-3 text-justify">
                                 <p class="bloque">${jsonInfo.semblanza}</p>
+                                ${jsonInfo.pdf ? `<a href="${res1}" class="btn btn-secondary btn-sm custom-text-wrap text-justify linkp" target="_blank">Ver PDF</a>` : ''}
                             </div>
                         </div>
                     </div>

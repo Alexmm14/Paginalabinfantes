@@ -38,6 +38,8 @@
 <!-- body -->
 
 <body class="main-layout">
+   <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0" nonce="bECislby"></script>
    <!-- loader  -->
    <div class="loader_bg">
       <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -134,6 +136,72 @@
 
    <!-- end header inner -->
    <!-- end header -->
+   <div class="container">
+      <div class="row mt-5">
+         <div class="col-12 col-md-12">
+            <div id="carrusel1" class="carousel slide" data-ride="carousel">
+               <ol class="carousel-indicators" id="olcarrusel">
+               </ol>
+               <div class="carousel-inner text-center">
+               </div>
+               <a class="carousel-control-prev" href="#carrusel1" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+               </a>
+               <a class="carousel-control-next" href="#carrusel1" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Siguiente</span>
+               </a>
+            </div>
+         </div>
+         <div class="col-12 col-md-12 color3">
+            <div class="fb-page" data-href="https://www.facebook.com/laboratoriodeinfantesUNAM" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+               <blockquote cite="https://www.facebook.com/laboratoriodeinfantesUNAM" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/laboratoriodeinfantesUNAM">Laboratorio de Infantes UNAM</a></blockquote>
+            </div>
+         </div>
+      </div>
+   </div>
+   
+   <script>
+      var rutaJSON = 'JSON/fotosCarruselIndex.json';
+   
+      fetch(rutaJSON)
+         .then(response => response.json())
+         .then(jsonArray => {
+            var carruselIndicador = document.getElementById('olcarrusel');
+            var carrusel = document.querySelector('.carousel-inner');
+            var num1 = 0;
+   
+            jsonArray.forEach(jsonInfo => {
+               var elementoIndicador = document.createElement('li');
+               elementoIndicador.setAttribute('data-target', '#carrusel1');
+               elementoIndicador.setAttribute('data-slide-to', num1);
+   
+               if (num1 === 0) {
+                  elementoIndicador.classList.add('active');
+               }
+   
+               carruselIndicador.appendChild(elementoIndicador);
+   
+               var elementoEntrevista = document.createElement('div');
+               elementoEntrevista.classList.add('carousel-item', 'ml-5', 'pr-5');
+   
+               if (num1 === 0) {
+                  elementoEntrevista.classList.add('active');
+               }
+   
+               elementoEntrevista.innerHTML = `
+                  <img src="./images/CarruselIndex/${jsonInfo.nombre}" alt="Imagen ${jsonInfo.alt}" class="d-block w-100">
+               `;
+   
+               carrusel.appendChild(elementoEntrevista);
+   
+               num1++;
+            });
+         })
+         .catch(error => console.error('Error al obtener el JSON:', error));
+   </script>
+   
    
 
 

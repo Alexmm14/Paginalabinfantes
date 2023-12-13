@@ -1,6 +1,7 @@
 // Ruta al archivo JSON
 var rutaJSON = 'JSON/Profesores-investigadores.json';
 var rutaImg = 'images/participantes/';
+var rutapdf = 'PDFS/PDFSemblanzas/';
 var num = 0;
 
 // Obtener el contenedor fuera del bucle
@@ -20,6 +21,8 @@ fetch(rutaJSON)
       // Crear elementos HTML para mostrar la información
       var elementoInfo = document.createElement('div'); //Creo que aun sigue que cada que aparezca un nuevo investigador se crea ale div
       var res = rutaImg + jsonInfo.imagen;
+      var res1 = rutapdf + jsonInfo.pdf;
+
 
       elementoInfo.classList.add('card-body');
       elementoInfo.innerHTML = `
@@ -39,6 +42,7 @@ fetch(rutaJSON)
                   </div>
                   <div class="col-12 col-lg-9 col-md-9 mb-3 text-justify">
                     <p class="bloque">${jsonInfo.semblanza}</p>
+                    ${jsonInfo.pdf ? `<a href="${res1}" class="btn btn-secondary btn-sm custom-text-wrap text-justify linkp" target="_blank">Ver PDF</a>` : ''}
                   </div>
                 </div>
               </div>

@@ -1483,25 +1483,31 @@ ul.img_icon li {
      /* Cambia "nuevo-color" al color deseado */
 }
 
-*/ .custom-container {
+.custom-container {
      max-width: 1172px;
      /* Ajusta el ancho máximo del contenedor según tus necesidades */
      margin: 0 auto;
      /* Centra el contenedor horizontalmente */
      border-radius: 2%;
 }
+/* Agrega esta regla de CSS para establecer una altura fija para las imágenes */
+.carousel-inner img {
+     height: 375px; /* Ajusta la altura según tus necesidades */
+ }
+ 
+ /* Mantén tu regla existente para el contenedor del carrusel */
+ .custom-container2 {
+     width: 100%;
+     margin: 0 auto;
+     border-radius: 2%;
+ }
+ 
 
 
 .parrafoUnete {
      font-size: x-large;
      justify-content: center;
 }
-
-.padingequipo {
-     padding-bottom: 30px;
-}
-
-
 
 /* Elimina las viñetas solo de ciertas listas con la clase "no-bullets" */
 .no-bullets {
