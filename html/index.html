@@ -39,7 +39,8 @@
 
 <body class="main-layout">
    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0" nonce="bECislby"></script>
+   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0"
+      nonce="bECislby"></script>
    <!-- loader  -->
    <div class="loader_bg">
       <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -55,11 +56,12 @@
                   <div class="col-md-6 col-sm-6">
                      <ul class="social_icon1">
                         <li> ¡Síguenos! </li>
-                        <li> <a href="https://www.facebook.com/laboratoriodeinfantesUNAM"><i class="fa fa-facebook"
-                                 aria-hidden="true"></i></a></li>
-                        <li> <a href="https://twitter.com/labinfantesunam"><i class="fa fa-twitter"></i></a></li>
-                        <li> <a href="https://www.instagram.com/laboratoriodeinfantes/?igshid=MDM4ZDc5MmU%3D"><i
-                                 class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li> <a href="https://www.facebook.com/laboratoriodeinfantesUNAM" target="_blank"><i
+                                 class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li> <a href="https://twitter.com/labinfantesunam" target="_blank"><i
+                                 class="fa fa-twitter"></i></a></li>
+                        <li> <a href="https://www.instagram.com/laboratoriodeinfantes/?igshid=MDM4ZDc5MmU%3D"
+                              target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                      </ul>
                   </div>
                </div>
@@ -68,14 +70,22 @@
          <div class="header_midil">
             <div class="container">
                <div class="row">
-                  <div class="col-sm-10 text-center"> <!-- Esta columna ocupará 8 de 12 columnas (1/3 del ancho) -->
-                     <a class="logo " href="#"><img src="images/image (2).png" alt="#"
-                           class="img-fluid max-width" /></a>
+                  <div class="col-sm-2 text-center d-none d-sm-block mt-4">
+                     <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
+                     <a class="logo2 " href="https://www.unam.mx/" target="_blank">
+                        <img src="images/logo-unam-png-blanco-ok.png" alt="#" class="img-fluid" />
+                     </a>
+                  </div>
+                  <div class="col-sm-8 text-center mt-4"> <!-- Esta columna ocupará 8 de 12 columnas (1/3 del ancho) -->
+                     <a class="logo " href="index.html">
+                        <img src="images/image (2).png" alt="#" class="img-fluid max-width" />
+                     </a>
                   </div>
                   <div class="col-sm-2 text-center d-none d-sm-block">
                      <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
-                     <a class="logo2 " href="#"><img src="images/Olivia_Wilson__1_-removebg-preview (4) (1).png" alt="#"
-                           class="img-fluid" /></a>
+                     <a class="logo2 " href="index.html">
+                        <img src="images/Olivia_Wilson__1_-removebg-preview (4) (1).png" alt="#" class="img-fluid" />
+                     </a>
                   </div>
                </div>
             </div>
@@ -91,16 +101,16 @@
                   <div class="collapse navbar-collapse justify-content-center align-items-center" id="navbarsExample04">
                      <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                           <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button"
                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Nuestro Laboratorio
                            </a>
-                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <div class="dropdown-menu ml-lg-2" aria-labelledby="navbarDropdown">
                               <!-- Puedes agregar más elementos dentro de este div para crear la lista -->
                               <a class="dropdown-item" href="./lineasInvestigacion.html">Lineas de investigación</a>
                               <a class="dropdown-item" href="investigadores.html">Investigadores</a>
                               <a class="dropdown-item" href="EventosAcademicos.html">Eventos Académicos</a>
-                              <a class="dropdown-item" href="#">El laboratorio en los medios</a>
+                              <a class="dropdown-item" href="laboEnLosMedios.html">El laboratorio en los medios</a>
                            </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -108,41 +118,43 @@
                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Investigación científica
                            </a>
-                           <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                           <div class="dropdown-menu ml-lg-2" aria-labelledby="navbarDropdown2">
                               <!-- Puedes agregar más elementos dentro de este div para crear la lista -->
-                              <a class="dropdown-item" href="#">Proyectos</a>
-                              <a class="dropdown-item" href="#">Productos de Investigación</a>
+                              <a class="dropdown-item" href="proyectos.html">Proyectos</a>
+                              <a class="dropdown-item" href="productosInvestigacion.html">Productos de Investigación</a>
+                              <a class="dropdown-item" href="resultadosRecientes.html">Resultados Recientes</a>
+
                            </div>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="./Participabb.html">¡Participa con tu bebé!</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="./Participabb.html">Intégrate al equipo</a>
+                           <a class="nav-link" href="./team.html">Intégrate al equipo</a>
                         </li>
                      </ul>
                   </div>
                </nav>
             </div>
-            
 
-               </nav>
-            </div>
+
+            </nav>
          </div>
+      </div>
 
 
       </div>
    </header>
-
    <!-- end header inner -->
    <!-- end header -->
    <div class="container">
       <div class="row mt-5">
-         <div class="col-12 col-md-12">
-            <div id="carrusel1" class="carousel slide" data-ride="carousel">
+         <div class="col-12 col-md-12 col-lg-8">
+            <div id="carrusel1" class="carousel slide " data-ride="carousel">
                <ol class="carousel-indicators" id="olcarrusel">
                </ol>
-               <div class="carousel-inner text-center">
+               <div class="carousel-inner text-center mb-5" id="carrusel">
+
                </div>
                <a class="carousel-control-prev" href="#carrusel1" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -153,56 +165,87 @@
                   <span class="sr-only">Siguiente</span>
                </a>
             </div>
+
          </div>
-         <div class="col-12 col-md-12 color3">
-            <div class="fb-page" data-href="https://www.facebook.com/laboratoriodeinfantesUNAM" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-               <blockquote cite="https://www.facebook.com/laboratoriodeinfantesUNAM" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/laboratoriodeinfantesUNAM">Laboratorio de Infantes UNAM</a></blockquote>
+         <div class="col-12 col-md-12 col-lg-4 ">
+            <div class="fb-page" data-href="https://www.facebook.com/laboratoriodeinfantesUNAM" data-tabs="timeline"
+               data-width="500" data-height="370" data-small-header="true" data-adapt-container-width="true"
+               data-hide-cover="false" data-show-facepile="true">
+               <blockquote cite="https://www.facebook.com/laboratoriodeinfantesUNAM" class="fb-xfbml-parse-ignore"><a
+                     href="https://www.facebook.com/laboratoriodeinfantesUNAM">Laboratorio de Infantes UNAM</a>
+               </blockquote>
             </div>
          </div>
       </div>
+
    </div>
-   
+
    <script>
       var rutaJSON = 'JSON/fotosCarruselIndex.json';
-   
+
       fetch(rutaJSON)
          .then(response => response.json())
          .then(jsonArray => {
+            // Obtener el contenedor de los indicadores
             var carruselIndicador = document.getElementById('olcarrusel');
-            var carrusel = document.querySelector('.carousel-inner');
             var num1 = 0;
-   
+
             jsonArray.forEach(jsonInfo => {
                var elementoIndicador = document.createElement('li');
                elementoIndicador.setAttribute('data-target', '#carrusel1');
                elementoIndicador.setAttribute('data-slide-to', num1);
-   
+
                if (num1 === 0) {
                   elementoIndicador.classList.add('active');
                }
-   
+
                carruselIndicador.appendChild(elementoIndicador);
-   
+               num1++;
+            });
+
+            // Obtener el contenedor del carrusel
+            var carrusel = document.getElementById('carrusel');
+            var num2 = 0;
+
+            jsonArray.forEach(jsonInfo => {
                var elementoEntrevista = document.createElement('div');
-               elementoEntrevista.classList.add('carousel-item', 'ml-5', 'pr-5');
-   
-               if (num1 === 0) {
+               elementoEntrevista.classList.add('carousel-item');
+
+               if (num2 === 0) {
                   elementoEntrevista.classList.add('active');
                }
-   
-               elementoEntrevista.innerHTML = `
-                  <img src="./images/CarruselIndex/${jsonInfo.nombre}" alt="Imagen ${jsonInfo.alt}" class="d-block w-100">
-               `;
-   
+
+               // Verificar si el elemento del JSON tiene el atributo "link"
+               if (jsonInfo.link) {
+                  // Crear un enlace y agregar la imagen dentro del enlace
+                  var enlace = document.createElement('a');
+                  enlace.href = jsonInfo.link;
+                  if (!jsonInfo.flag) {
+                     enlace.target = '_blank';
+                     enlace.appendChild(document.createElement('img')).src = `./images/CarruselIndex/${jsonInfo.nombre}`;
+                     enlace.firstChild.alt = `Imagen ${jsonInfo.alt}`;
+                     enlace.firstChild.classList.add('img-fluid');
+                  } else {
+                     enlace.appendChild(document.createElement('img')).src = `./images/CarruselIndex/${jsonInfo.nombre}`;
+                     enlace.firstChild.alt = `Imagen ${jsonInfo.alt}`;
+                     enlace.firstChild.classList.add('img-fluid');
+                  }
+                  // Agregar el enlace al contenedor
+                  elementoEntrevista.appendChild(enlace);
+               } else {
+                  // Si no tiene el atributo "link", agregar la imagen directamente
+                  elementoEntrevista.innerHTML = `
+                     <img src="./images/CarruselIndex/${jsonInfo.nombre}" alt="Imagen ${jsonInfo.alt}" class="img-fluid">
+        `;
+               }
+
                carrusel.appendChild(elementoEntrevista);
-   
-               num1++;
+               num2++;
             });
          })
          .catch(error => console.error('Error al obtener el JSON:', error));
    </script>
-   
-   
+
 
 
 
@@ -219,15 +262,15 @@
                <h3>Contactanos</h3>
                <ul class="location_icon">
                   <li>
-                     <a href="https://maps.app.goo.gl/MC3XTKLiS2bUGhGA6" class="ulcontactanos">
+                     <a href="https://maps.app.goo.gl/2Ty36L5WuNHQZc8WA" target="_blank" class="ulcontactanos">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                         Av. Universidad 3004, Sótano edificio "C".<br> Ciudad de México, CDMX
                      </a>
                   </li>
                   <li>
-                     <a href="mailto:laboratorio_de_infantes@servidor.unam.mx" class="ulcontactanos">
+                     <a href="mailto:laboratorio_de_infantes@unam.mx" class="ulcontactanos">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        laboratorio_de_infantes@servidor.unam.mx
+                        laboratorio_de_infantes@unam.mx
                      </a>
                   </li>
                   <li>
@@ -242,17 +285,41 @@
 
             <div class="col-12 col-md-4 col-lg-5 text-center"
                style="display: flex; flex-direction: column; align-items: center;">
-               <h3>Menús</h3>
-               <ul class="link_icon">
-                  <li> <a href="index.html"> Nuestro Laboratorio</a></li>
-                  <li>
-                     <a href="about.html">
+               <h3>Nuestro Laboratorio</h3>
+               <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                     <a class="nav-link colorletrasub" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle colorletrasub" href="#" id="nuestroLaboratorioDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nuestro Laboratorio
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="nuestroLaboratorioDropdown">
+                        <a class="dropdown-item " href="./lineasInvestigacion.html">Líneas de investigación</a>
+                        <a class="dropdown-item " href="investigadores.html">Investigadores</a>
+                        <a class="dropdown-item " href="EventosAcademicos.html">Eventos Académicos</a>
+                        <a class="dropdown-item " href="laboEnLosMedios.html">El laboratorio en los medios</a>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle colorletrasub" href="#" id="investigacionDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Investigación científica
                      </a>
+                     <div class="dropdown-menu" aria-labelledby="investigacionDropdown">
+                        <a class="dropdown-item " href="proyectos.html">Proyectos</a>
+                        <a class="dropdown-item " href="productosInvestigacion.html">Productos de Investigación</a>
+                        <a class="dropdown-item " href="resultadosRecientes.html">Resultados Recientes</a>
+                     </div>
                   </li>
-                  <li> <a href="Participabb.html"> Ven y participa!!</a></li>
-                  <li> <a href="team.html"> Intégrate al equipo</a></li>
-               </ul>
+                  <li class="nav-item">
+                     <a class="nav-link colorletrasub" href="./Participabb.html">¡Participa con tu bebé!</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link colorletrasub" href="./team.html">Intégrate al equipo</a>
+                  </li>
+               </ul>>
             </div>
             <div class="col-12 col-md-2 col-lg-2 text-center"
                style="display: flex; flex-direction: column; align-items: center;">

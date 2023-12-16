@@ -1,7 +1,24 @@
 [
     {
         "alt": "Laboratorio de Infantes",
-        "nombre": "anuncio6.jpg"
+        "nombre": "descarga.png"
+    },
+    {
+        "alt": "Laboratorio de Infantes",
+        "nombre": "Captura desde 2023-12-15 00-18-40.png",
+        "link":"PDFS/PDFSIndex/Copia de ConoceLab No. 3.pdf"
+    },
+    {
+        "alt": "Resultados Recientes",
+        "nombre": "ResultadosRecientes.png",
+        "link":"resultadosRecientes.html",
+        "flag":"1"
+
+    },
+    {
+        "alt": "Laboratorio de Infantes",
+        "nombre": "anuncio6.jpg",
+        "link":"https://www.youtube.com/embed/NWcEO4n9HEM?rel=0&autoplay=1"
     },
     {
         "alt": "Laboratorio de Infantes",
@@ -9,7 +26,9 @@
     },
     {
         "alt": "Laboratorio de Infantes",
-        "nombre": "anuncio2.jpg"
+        "nombre": "anuncio2.jpg",
+        "link":"Participabb.html",
+        "flag":"1"
     },
     {
         "alt": "Laboratorio de Infantes",
@@ -17,7 +36,8 @@
     },
     {
         "alt": "Laboratorio de Infantes",
-        "nombre": "598985_438148586263993_1539161069_n.jpg"
+        "nombre": "598985_438148586263993_1539161069_n.jpg",
+        "link":"https://www.psicologia.unam.mx/"
     },
     {
         "alt": "Laboratorio de Infantes",

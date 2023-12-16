@@ -1,0 +1,157 @@
+[
+    {
+        "nombre":"Uso de palabras del contexto cercano y lejano en el lenguaje infantil.",
+        "autores":"Farell, G., Suárez, P., Alva, E. A., Ferreira, E. y Hernández-Padilla, E.",
+        "ruta":"contexto_cercano.pdf"
+    },
+    {
+        "nombre":"Tiempo de reacción y habilidades lingüísticas.",
+        "autores":"Suárez, P. y Alva, E. A",
+        "ruta":"tiempo_de_reaccion.pdf"
+    },
+    {
+        "nombre":"Segmentación de palabras y relación de sus raíces con un objeto. Los niños pueden lograrlo.",
+        "autores":"Falcón, A., Jasso, T., Guzmán, A. y Alva, E. A.",
+        "ruta":"pueden_lograrlo.pdf"
+    },
+    {
+        "nombre":"Pistas para aprender nuevas palabras.",
+        "autores":"Jasso, T., Falcón, A. y Alva, E. A.",
+        "ruta":"nuevas_palabras.pdf"
+    },
+    {
+        "nombre":"Los sonidos más frecuentes en el habla de niños de 5 a 11 años.",
+        "autores":"Alva, E. A., González, N., Alpizar, S., Pérez, C. y Jasso, T.",
+        "ruta":"los_sonidos.pdf"
+    },
+    {
+        "nombre":"Leyendo juntos, hablando más.",
+        "autores":"González, D.R. y Valdés, T.",
+        "ruta":"leyendo_juntos.pdf"
+    },
+    {
+        "nombre":"Habilidades de mapeo rápido en infantes de 18 meses de edad.",
+        "autores":"Olazo, M.P., González, O.A. y Alva, E. A.",
+        "ruta":"habilidades_de_mapeo.pdf"
+    },
+    {
+        "nombre":"Es un mabITO o es un mabOTE. Comprensión de los morfemas del tamaño.",
+        "autores":"Falcón, A., Jasso, T. y Alva, E. A.",
+        "ruta":"morfemas_del_tamaño.pdf"
+    },
+    {
+        "nombre":"El lenguaje del tamaño, infantes de 30 meses comprenden su significado.",
+        "autores":"Falcón, A., Jasso, T. y Alva, E. A.",
+        "ruta":"el_lenguaje_del_tamaño.pdf"
+    },
+    {
+        "nombre":"El cantar importa.",
+        "autores":"Pérez, K. y Alva, E. A.",
+        "ruta":"el_cantar_importa.pdf"
+    },
+    {
+        "nombre":"Conductas parentales. Los papás y las mamás enseñan a sus bebés a hablar.",
+        "autores":"Alva, E. A., Guerrero, B.",
+        "ruta":"conductas_parentales.pdf"
+    },
+    {
+        "nombre":"Aproximaciones al estudio de la adquisición del lenguaje, un estudio comparativo.",
+        "autores":"Suárez, P., Ferreira, E., Farell, G., Guerrero, B., De la Vega, M. E. y Alva, E. A.",
+        "ruta":"Aproximaciones.pdf"
+    },
+    {
+        "nombre":"A veces más y menos pueden ser iguales. La importancia de la complejidad de las palabras.",
+        "autores":"Ferreira, E",
+        "ruta":"importancia_de_la_complejidad.pdf"
+    },
+    {
+        "nombre":"El entendimiento infantil de los números en diferentes contextos",
+        "autores":"Roberto Abreu Mendoza, Elia Soto Alba & Natalia Arias Trejo",
+        "ruta":"entendimientoinfantil.pdf"
+    },
+    {
+        "nombre":"Comprensión del plural en infantes de 18 meses de edad",
+        "autores":"Responsables Psic. Verónica I. Pérez Paz y Dra. Natalia Arias-Trejo",
+        "ruta":"Resultados_Padres_Vero_PLURALES 18m_Vero_Nat.pdf"
+    },
+    {
+        "nombre":"Comprensión del plural con conjuntos de 2 objetos",
+        "autores":"Responsables Psic. Verónica I. Pérez Paz y Dra. Natalia Arias-Trejo",
+        "ruta":"Resultados_Padres_Vero_PLURALES 2 objetos_Vero_Nat.pdf"
+    },
+    {
+        "nombre":"Bebés deduciendo el significado de nuevas palabras “Las flores que bailan”",
+        "autores":"Alberto Falcón, Elda Alva & Seraid Caynas",
+        "ruta":"reporte_PAPaS_sintax.pdf"
+    },
+    {
+        "nombre":"Generalización de palabras durante la infancia",
+        "autores":"Natalia Arias-Trejo",
+        "ruta":"Resultados_Padres_AriasTrejo_GENERALIZACION.pdf"
+    },
+    {
+        "nombre":"La manzana o el manzano: Uso de marcadores de género para identificar objetos",
+        "autores":"Natalia Arias-Trejo",
+        "ruta":"Resultados_Padres_AriasTrejo2_GENERO.pdf"
+    },
+    {
+        "nombre":"Referentes de las interacciones espontaneas de los niños de dos niveles socioeconómicos y su aplicabilidad",
+        "autores":"Mónica María Concepción Medécigo Micete.",
+        "ruta":"interacciones_espontaneas.pdf"
+    },
+    {
+        "nombre":"Morfología vs Sintaxis ¿Los niños preferirán alguna?",
+        "autores":"Tania Jasso López",
+        "ruta":"morfologiavssintaxis.pdf"
+    },
+    {
+        "nombre":"Categorización y aprendizaje de nuevas palabras",
+        "autores":"Omar Abad González Aguirre",
+        "ruta":"formaycolorOmar.pdf"
+    },
+    {
+        "nombre":"Los determinativos aumentan un mundo de información en el lenguaje de los infantes",
+        "autores":"Gabriela Farell Rodríguez, María Luisa Hernández Reyes & Elda Alicia Alva Canto",
+        "ruta":"Resultados_Determinativos_GabrielaFarell.pdf"
+    },
+    {
+        "nombre":"El espacio en nuestras mentes: ¿qué tan arriba es “arriba”?",
+        "autores":"Jesús Antonio Franco Rodríguez",
+        "ruta":"ElespacioennuestrasmentesANTONIO.pdf"
+    },
+    {
+        "nombre":"Adquisición y Comprensión del Plural en Infantes Mexicanos",
+        "autores":"vPsic. Verónica I. Pérez Paz, Dra. Natalia Arias Trejo y Lic. Lisa Cantrell",
+        "ruta":"Resultados_Padres_VeroNatLisa_PLURALES.pdf"
+    },
+    {
+        "nombre":"¿Cuál es la betusa y cuál es el pileco? Aprendiendo palabras por medio de descripciones",
+        "autores":"Dra. Natalia Arias Trejo, Psic. Tania Jasso López y Psic. Irma Vázquez López",
+        "ruta":"Resultados_Padres_AriasTrejo_STRA_2011.pdf"
+    },
+    {
+        "nombre":"Tiempo de jugar entre padres e infantes: un objeto, dos objetos, cuatro objetos…",
+        "autores":"Dra. Natalia Arias Trejo, Bárbara Guerrero Ortiz‐Hernán y Lisa Cantrell",
+        "ruta":"RES_PAPAS_EST_OBSERVACIONAL.pdf"
+    },
+    {
+        "nombre":"Los infantes de 24 meses distinguen entre uno y muchos",
+        "autores":"Roberto Abreu Mendoza, Abril Plascencia González y Natalia Arias Trejo",
+        "ruta":"Res_Padres_Busqueda_manual.pdf"
+    },
+    {
+        "nombre":"“Pilando y Libiendo” uso de claves gramaticales para aprender nuevas palabras",
+        "autores":"Psic. Tania Jasso López y Lic. Alberto Falcón Albarrán",
+        "ruta":"Resultados_papas_Tania_exp2.pdf"
+    },
+    {
+        "nombre":"Forma contra movimiento en el aprendizaje de nuevas palabras",
+        "autores":"Psic. Irma Aurora Vázquez López",
+        "ruta":"Extension_Irma.pdf"
+    },
+    {
+        "nombre":"TESIDES, NARICES Y GATOS: El conocimiento de los infantes sobre las terminaciones del plural",
+        "autores":"Psic. Abril Plascencia González,Psic. Roberto Abreu Mendoza, Dra. Natalia Arias Trejo",
+        "ruta":"palabrasnuevas.pdf"
+    }
+]

@@ -1490,18 +1490,14 @@ ul.img_icon li {
      /* Centra el contenedor horizontalmente */
      border-radius: 2%;
 }
-/* Agrega esta regla de CSS para establecer una altura fija para las imágenes */
-.carousel-inner img {
-     height: 375px; /* Ajusta la altura según tus necesidades */
- }
- 
- /* Mantén tu regla existente para el contenedor del carrusel */
- .custom-container2 {
-     width: 100%;
+.custom-container2 {
+     height: 375px;
+     width: 990px;
+     /* Ajusta el ancho máximo del contenedor según tus necesidades */
      margin: 0 auto;
+     /* Centra el contenedor horizontalmente */
      border-radius: 2%;
- }
- 
+}
 
 
 .parrafoUnete {
@@ -1647,9 +1643,7 @@ ul.img_icon li {
      font-size: 18px !important;
 }
 
-.investigadores {
-     color: white;
-}
+
 
 .btn-linkcolor {
      color: #003471 !important;
@@ -1658,8 +1652,21 @@ ul.img_icon li {
 .bloque {
      font-size: 16.8px !important;
 }
-.colorletra{
+.colorletra, .colorletrasub, .investigadores{
      color: white;
 }
+
+.colorletrasub :hover{
+     color: #967223 !important;
+}
+
+
+
+@media (min-width: 992px) {
+     .lg-w-75 {
+       width: 75% !important;
+     }
+   }
+   
 
 /** end footer **/

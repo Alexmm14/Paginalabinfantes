@@ -118,6 +118,8 @@
                               <!-- Puedes agregar más elementos dentro de este div para crear la lista -->
                               <a class="dropdown-item" href="proyectos.html">Proyectos</a>
                               <a class="dropdown-item" href="productosInvestigacion.html">Productos de Investigación</a>
+                              <a class="dropdown-item" href="resultadosRecientes.html">Resultados Recientes</a>
+                           
                            </div>
                         </li>
                         <li class="nav-item">
@@ -566,17 +568,41 @@
 
             <div class="col-12 col-md-4 col-lg-5 text-center"
                style="display: flex; flex-direction: column; align-items: center;">
-               <h3>Menús</h3>
-               <ul class="link_icon">
-                  <li> <a href="index.html"> Nuestro Laboratorio</a></li>
-                  <li>
-                     <a href="about.html">
+               <h3>Nuestro Laboratorio</h3>
+               <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                     <a class="nav-link colorletrasub" href="./index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle colorletrasub" href="#" id="nuestroLaboratorioDropdown"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nuestro Laboratorio
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="nuestroLaboratorioDropdown">
+                        <a class="dropdown-item " href="./lineasInvestigacion.html">Líneas de investigación</a>
+                        <a class="dropdown-item " href="investigadores.html">Investigadores</a>
+                        <a class="dropdown-item " href="EventosAcademicos.html">Eventos Académicos</a>
+                        <a class="dropdown-item " href="laboEnLosMedios.html">El laboratorio en los medios</a>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle colorletrasub" href="#" id="investigacionDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Investigación científica
                      </a>
+                     <div class="dropdown-menu" aria-labelledby="investigacionDropdown">
+                        <a class="dropdown-item " href="proyectos.html">Proyectos</a>
+                        <a class="dropdown-item " href="productosInvestigacion.html">Productos de Investigación</a>
+                        <a class="dropdown-item " href="resultadosRecientes.html">Resultados Recientes</a>
+                     </div>
                   </li>
-                  <li> <a href="Participabb.html"> Ven y participa!!</a></li>
-                  <li> <a href="team.html"> Intégrate al equipo</a></li>
-               </ul>
+                  <li class="nav-item">
+                     <a class="nav-link colorletrasub" href="./Participabb.html">¡Participa con tu bebé!</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link colorletrasub" href="./team.html">Intégrate al equipo</a>
+                  </li>
+               </ul>>
             </div>
             <div class="col-12 col-md-2 col-lg-2 text-center"
                style="display: flex; flex-direction: column; align-items: center;">
@@ -611,7 +637,6 @@
          </div>
       </div>
    </footer>
-
    <!-- end footer -->
    <!-- Javascript files-->
    <script src="js/jquery.min.js"></script>
