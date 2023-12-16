@@ -1,5 +1,115 @@
 [
   {
+    "nombre":"Zyanya Abril García Castellanos",
+    "semblanza":"Pasante de la licenciatura de Psicología en la Facultad de Psicología de la UNAM. Actualmente realiza su servicio social en el Laboratorio de Infantes en el programa ''Adquisición del lenguaje en infantes mexicanos''. Su principal interés ha sido la investigación cualitativa y cuantitativa. Ha colaborado en el Laboratorio de Investigación Transaccional de Análisis de la Conducta en un proyecto sobre la toma de decisiones. Se encuentra desarrollando su tesis de licenciatura que lleva como título ''Adquisición de la lectoescritura a distancia: Experiencias de cuidadoras de niños durante la pandemia de COVID-19''.",
+    "imagen":"ZyanyaGarcia2022.jpg"
+  },
+  {
+    "nombre":"Brenda Guzmán Martínez",
+    "semblanza":"Cursó la Lic. en la Facultad de Psicología de la UNAM, actualmente es pasante. Su formación está vinculada al área organizacional. Realizó su servicio social en el Laboratorio de Infantes en el programa ‘’Adquisición del lenguaje en infantes mexicanos’’ donde colaboró en la captura y recolección de datos, al igual que en la calificación de videos de las corridas de algunos experimentos. Su interés es la investigación de la conducta en trabajadores dentro de las empresas.",
+    "imagen":"BrendaGuzman2022.jpg"
+  },
+  {
+    "nombre":"Álvaro Gómez Segovia",
+    "semblanza":"Estudiante de décimo semestre de la Carrera de Ingeniería en Computación, en la Facultad de Ingeniería de la UNAM. Actualmente se encuentra realizando su servicio social en el Laboratorio de Infantes, donde sus principales tareas son: Creación, diseño y actualización de base de datos, actualización de la página web y mantenimiento de los dispositivos de red y equipos de cómputo.",
+    "imagen":"AlvaroGomez2022.jpg"
+  },
+  {
+    "nombre":"Lic. Irma Aurora Vázquez López",
+    "semblanza":"amry_psique@hotmail.com <br>Es egresada de la Facultad de Psicología de la UNAM, desde hace año y medio colabora en el Laboratorio de Infantes, realizo su servicio social ayudando en las actividades e investigaciones que aquí se realizan, asimismo llevó a cabo su proyecto de tesis en el Laboratorio de Infantes titulado:” Extensión: una estrategia para el aprendizaje de nuevas palabras en infantes”. Participó en el XVII Congreso Mexicano de Psicología con la investigación: “Relación de variables ambientales con el vocabulario de los infantes reportado por los padres” que se llevó a cabo en Acapulco, Guerrero. Participó como ponente en el XVIII Congreso Mexicano de Psicología con resultados preliminares de su investigación, con el trabajo titulado: “¿Es pelota por qué es redonda o porque bota? forma contra movimiento en el aprendizaje de nuevas palabras” que se realizó en la Universidad Iberoamericana en la Ciudad de México. Del cual se derivaron dos estudios más con los que participó como ponente en el XIX Congreso Mexicano de Psicología, con el trabajo titulado: “Movimiento y Forma, Características Relevantes en el Aprendizaje de Nuevas Palabras” que se realizó en Cancún, Quintana Roo. En Noviembre del 2012 participó como ponente en el XXII Congreso de la Sociedad Mexicana de Análisis de la Conducta, SMAC, con el trabajo titulado: “Forma vs Movimiento, ¿Qué característica es relevante en la extensión de palabras?”, realizado en Guanajuato, Gto.",
+    "imagen":"vazquez.jpg"
+  },
+  {
+    "nombre": "Dra. Claudia Almazán Bertotto",
+    "semblanza": "Directora de la Facultad de Comunicación Humana de la Universidad Autónoma del Estado de Morelos. <br> <a href='http://www.uaem.mx/comunicacionhumana/'>Enlace a la Facultad de Comunicación Humana</a>",
+    "imagen": "claudia.jpg"
+  },  
+  {
+    "nombre":"Mónica María Concepción Medécigo Micete",
+    "semblanza":"monimedecigo@yahoo.com.mx <br>La Maestra en Psicología Educativa Mónica Ma. C. Medécigo Micete presentó su examen de grado recientemente, en la Facultad de Psicología de la Universidad Nacional Autónoma de México, en septiembre de 2009 con la investigación “REFERENTES DE LAS INTERACCIONES ESPONTÁNEAS DE LOS NIÑOS DE DOS NIVELES SOCIOECONÓMICOS Y SU APLICABILIDAD” obteniendo mención honorífica, investigación que se llevó a cabo con 384 niños con un intervalo de edad de 5 a 7 años. <br> La licenciatura en Psicología la realizó en la Escuela Nacional de Estudios Profesionales (ahora Facultad de Psicología) de Iztacala,  Su interés por la psicología surge a raíz de su trabajo con niños, ya que cursó la Carrera de Maestra para Jardín de Niños en donde se desarrollo profesionalmente estando 14 años frente a grupo colaborando además con el Laboratorio Psicopedagógico de Preescolar el cual se convirtió en CAPEP, en donde atendió a la población infantil y a los padres de los menores, como Psicóloga. <br>En su vida profesional estuvo al frente de diferentes instituciones como Directora de Unidades de Grupos Integrados y de USAER, tomando posteriormente la responsabilidad de la Supervisión de Zona en Educación Especial. <br> Actualmente, la Maestra Mónica María Concepción Medécigo Micete, colabora en el Laboratorio de Infantes de la Facultad de Psicología a cargo de la Doctora Elda Alicia Alva Canto, conjuntamente con la Doctora Natalia Arias Trejo y un equipo de profesionales y estudiantes de la Facultad, con el interés de investigar sobre la adquisición del lenguaje y sus efectos en la adquisición de la lectura, aspectos a considerar para realizar los estudios de doctorado.",
+    "imagen":"medecigo.jpg"
+  },
+  {
+    "nombre":"Roberto Abreu",
+    "semblanza":"Psicólogo egresado de la Universidad de Guadalajara. Su principal interés se centra en la adquisición del concepto numérico por parte de los infantes. A través de la investigación que se realiza en el laboratorio intenta contestar preguntas como ¿Qué tipo de representaciones utilizan los infantes para aprender sus primeros numerales? ¿Cómo afecta la información visual en el entendimiento del número? Para dar respuestas a esas preguntas utiliza el Paradigma Intermodal de Atención Preferencial, así como tareas de comparación de cantidades, la tarea de ‘Dame un número’, entre otras.",
+    "imagen":"roberto.jpg"
+  },
+  {
+    "nombre":"Abril Plascencia González",
+    "semblanza":"Es estudiante de la Universidad de Guadalajara, sus intereses se han centrado en la adquisición del lenguaje y la lectoescritura por lo que ha participado activamente en la elaboración de carteles de divulgación científica así como en la aplicación de pruebas para el estudio de la Mtra. Judith Suro acerca de “Dislexia en universitarios”. Durante el Verano de Investigación Científica del 2010 colaboró en el Laboratorio de Infantes de la Universidad Autónoma de México. Actualmente, y en colaboración con la Dra. Arias Trejo y Roberto Mendoza realiza un estudio en el mismo laboratorio sobre la comprensión de plurales en infantes.",
+    "imagen":"abril.jpg"
+  },
+  {
+    "nombre":"Santiago Omar González Gómez ",
+    "semblanza":"nocturnal_anima@hotmail.com <br>Estudiante de Ingeniería en Computación en la Universidad Nacional Autónoma de México. Ha tomado diversos cursos de actualización entre los que destacan los de Ensamblado de PC’S y Diseño de Bases de Datos. Actualmente se encuentra realizando su servicio social en el Laboratorio de Infantes de la Facultad de Psicología de la UNAM, en donde se encarga de la administración de red y del mantenimiento preventivo y correctivo de los equipos de cómputo. Además, apoya en las diversas actividades propias del Laboratorio.",
+    "imagen":"santiago.jpg"
+  },
+  {
+    "nombre":"Psic. Jesús Antonio Franco Rodríguez",
+    "semblanza":"Estudió la carrera de Psicología en la Facultad de Psicología de la UNAM, dentro del Programa de Alta Exigencia Académica. Debido al interés por la investigación, el área en la que se enfocó fue la experimental. Ha sido autor y presentado trabajos en congresos nacionales relacionados con la psicología social y la neuropsicología. <br>Desde hace dos años colabora en el Laboratorio de Infantes. Asimismo, como parte de las colaboraciones en proyectos de los demás integrantes del laboratorio, ha sido autor y presentado diversos trabajos en congresos nacionales. Actualmente cuenta con su propio proyecto de tesis, en el cual se investiga acerca de las representaciones cognitivas de las relaciones espaciales entre varios objetos. Este proyecto tiene como objetivo conocer cuáles son los límites y alcances de palabras como “arriba” o “izquierda” y si es que estas palabras son asignadas a categorías que aparecen de manera temprana, desde los 6 meses, o, por el contrario, son estas palabras las que nos permiten categorizar las relaciones espaciales entre los objetos posteriormente. <br> Otro de los intereses de investigación es la conducta prosocial entre los humanos y su desarrollo en infantes.",
+    "imagen":"franco.jpg"
+  },
+  {
+    "nombre":"Verónica Isabel Pérez Paz",
+    "semblanza":"ursó la Lic. En Psicología en la Facultad de Psicología de la UNAM, actualmente es pasante de psicología, su área de interés es la psicología experimental y clínica. En este año ingresó al Laboratorio de Infantes para realizar su tesis de licenciatura, en colaboración con la Dra. Natalia Arias-Trejo, la cual tiene como tema central la adquisición, comprensión y producción de los marcadores numéricos en el español, en niños de 24 a 30 meses de edad, esta investigación está siendo realizada de forma experimental, pero es complementada con un estudio observacional, con bebés de 24 meses de edad.",
+    "imagen":"vero.jpeg"
+  },
+  {
+    "nombre":"Maria Eugenia de la Vega Estrada ",
+    "semblanza":"marumaru1@prodigy.net.mx <br> Es pasante de la carrera de Pedagogía de la UNAM, está trabajando como tema de tesis de Licenciatura el uso y adquisición de verbos en los infantes de 12 a 36 meses de edad.  Los objetivos de la investigación son conocer qué verbos generan los niños; cómo los utilizan al construir las oraciones; y si se presentan diferencias en la edad a la que producen los infantes los primeros verbos dependiendo del tipo de escuela a la cual asisten. <br>Como pedagoga está interesada en la forma de expresión de los infantes, ya que es reflejo de su pensamiento y la forma en la cual lo van desarrollando. Desde febrero de 2010 participa en el seminario del Laboratorio de Infantes Cognición y Lenguaje de la UNAM.",
+    "imagen":"vega.jpeg"
+  },
+  {
+    "nombre":"Psic. Elia Elena Soto Alba",
+    "semblanza":"Estudió la Licenciatura en Psicología en la Facultad de Psicología de la Universidad Nacional Autónoma de México (UNAM). Ha sido colaboradora y becaria en proyectos de investigación relacionados con el estudio de la estimación temporal y la toma de decisiones tanto en humanos como en otras especies. Ingresó al Laboratorio de Infantes a principios del 2012 para realizar su servicio social, teniendo como asesora del mismo a la Dra. Elda Alicia Alva Canto. Concluyó su servicio social a mediados del 2012 y actualmente colabora con la Dra. Natalia Arias-Trejo en un proyecto sobre desarrollo numérico en infantes de 36 meses de edad. Asimismo se encuentra desarrollando su tesis de licenciatura en el Espacio Compartido de Investigación, la cual tiene que ver con la solución de multiplicaciones y divisiones de fracciones en modalidad simbólica y no-simbólica. Ha presentado trabajos en diferentes foros nacionales y sus principales intereses de investigación son la adquisición de la lengua y el desarrollo numérico.",
+    "imagen":"elia.jpg"
+  },
+  {
+    "nombre":"Lic. Bárbara Guerrero Ortiz-Hernán",
+    "semblanza":"primunvivere@hotmail.com <br>Cursó la licenciatura en la Facultad de Psicología de la UNAM dentro del  grupo de alta exigencia académica,  su tesis de licenciatura se tituló “Creencias y metas maternas: Su influencia en el interés de los niños”, durante el último año  ha colaborado con el Laboratorio de Infantes de la Facultad de Psicología y actualmente cursa su primer semestre del Doctorado en Psicología Social y Ambiental. Asistió  al  XXXI Congreso Interamericano de Psicología, al VI Congreso Iberoamericano de Evaluación Psicológica y al Primer Seminario de Desarrollo e interacción Social Modelos y Resultados que se realizaron en la Ciudad de México. <br>Su  línea de investigación en este momento se enfoca  en entender los posibles efectos que pueden tener las prácticas de crianza parentales y la interacción padre-hijo en el desarrollo infantil, específicamente en el desarrollo del lenguaje.",
+    "imagen":"guerrero.jpg"
+  },
+  {
+    "nombre":"Miriam Patricia Olazo Carrera",
+    "semblanza":"Egresada de la Licenciatura en Psicología, de la UNAM, en el año 2014. Cursó el área terminal en Psicología Educativa. Su interés profesional se centra en el trabajo con infantes, desde la lactancia hasta la niñez temprana, en temas como desarrollo de habilidades psico-motrices, cognitivas, sociales y de lenguaje. <br>Ingresó al Laboratorio de Infantes como prestadora de servicio social, a finales del 2013, colaborando en las investigaciones que se realizan. Su interés particular se centró en el aprendizaje de nuevas palabras en infantes de año y medio de edad, tema de la tesis que se encuentra desarrollando actualmente.",
+    "imagen":"olazo.jpg"
+  },
+  {
+    "nombre":"Cindy Pérez Valdivia",
+    "semblanza":"Egresada de la Facultad de Psicología de la UNAM, campus C. U. Actualmente se encuentra realizando su tesis para titulación del nivel licenciatura el cual lleva por título la Sensibilidad perceptual en infantes de edades tempranas para discriminar palabras con regularidad silábica & acentuadas esto con el propósito de saber si guardan alguna preferencia por alguna de estas regularidades. Cabe mencionar que ambas regularidades son importantes en el uso de los infantes para poder segmentar las palabras en un habla fluida y así saber dónde inicia o dónde termina una palabra. <br> Además de colaborar en diversas actividades del Laboratorio de Infantes como participar de manera directa con los infantes que participan con nosotros en los diversos estudios, se encuentra realizando sus prácticas profesionales en la Clínica Contra el Tabaquismo y otras sustancias Adictivas, donde bajo supervisión, realiza intervención e integración de pruebas psicológicas a pacientes con algún problema de adicción. Actualmente está iniciando un Diplomado sobre “Competencias Profesionales Especificas en Tabaco y otras Sustancias Adictivas.”",
+    "imagen":"Cindy.jpg"
+  },
+  {
+    "nombre":"Marlene Belem González Alvarez",
+    "semblanza":"Cursó la carrera de Psicología en la Facultad de Psicología de la UNAM. En el 2014 realizó su servicio social en el Laboratorio de Infantes. En el mismo año realizó prácticas profesionales en el Hospital General de México “Dr. Eduardo Liceaga” dentro del área de Pediatría. Ahí mismo participó como exponente en el Taller: Estrés laboral dirigido a Trabajadores sociales. Sus áreas de interés son la psicología clínica infantil y experimental. En el 2015 se integró al equipo de trabajo del Laboratorio de Infantes donde actualmente se encuentra realizando investigación sobre las conductas sociales en infantes mexicanos en interacción con sus madres. Su principal interés es conocer la relación que existe entre las conductas de infantes en interacción y su desarrollo del lenguaje.",
+    "imagen":"marlene.jpg"
+  },
+  {
+    "nombre":"Delia Rebeca González Barba",
+    "semblanza":"Actualmente cursa el último semestre de la Licenciatura en Psicología en la Universidad Nacional Autónoma de México. Ha participado en estancias cortas en el Instituto de Biología, Instituto de Fisiología Celular división de Neurociencias de la UNAM y en el Laboratorio de Psicología Ambiental. Ha hecho prácticas profesionales en escenarios especializados en la clínica de atención comunitaria “Los Volcanes”. En el 2014 realizó un intercambio académico en La Trobe University, campus Melbourne, Australia. <br> Ha participado como parte de la organización la Semana del Cerebro en la Facultad de Psicología de la UNAM, el cuarto Simposio de Psicología Clínica Comunitaria y en la Feria de Servicio Social. Como parte de su Servicio Social colabora en el Laboratorio de Infantes en proyectos de investigación relacionados con el desarrollo lingüístico de los infantes mexicanos. A la par realiza su tesis de licenciatura sobre la interacción de cuidador e infante en una tarea de lectura conjunta y su relación con la producción léxica en los infantes.",
+    "imagen":"delia.jpg"
+  },
+  {
+    "nombre":"Mónica del Rosario Valdez Padilla",
+    "semblanza":"Egresada de la facultad de psicología de la UNAM - CU Actualmente colabora en el laboratorio de infantes investigando sobre como los bebés de 15 meses se comunican con sus padres mediante gestos preverbales.",
+    "imagen":"monica.jpg"
+  },
+  {
+    "nombre":"Eduardo Ramírez Juarez",
+    "semblanza":"Estudiante de Ingeniería en Computación en la Universidad Nacional Autónoma de México, cursando su 8 semestre de la carrera. Actualmente se encuentra realizando su servicio social en el Laboratorio de Infantes de la Facultad de Psicología de la UNAM, en donde se encarga del mantenimiento preventivo y correctivo de los equipos de cómputo.",
+    "imagen":"eduardor.jpg"
+  },
+  {
+    "nombre":"Dr. Luis Castro Bonilla",
+    "semblanza":"Investigador y Profesor en la Facultad de Comunicación Humana de la Universidad Autónoma del Estado de Morelos. <br> <a href='http://www.uaem.mx/comunicacionhumana/' target='_blank' >Enlace a la Facultad de Comunicación Humana</a>",
+    "imagen":"Dr.-Luis-Castro-Bonilla.jpg"
+  },
+  {
+    "nombre":"Julia Beatríz Barrón Martínez",
+    "semblanza":"Pasante de la Licenciatura en Psicología por la Universidad Autónoma del Estado de México. Es colaboradora del Laboratorio de Infantes desde el 2010. Ha realizado tres estancias de Verano de Investigación en el Laboratorio dentro de los programas de Academia Mexicana de Ciencias y Delfín, así como sus Prácticas Profesionales a cargo de la Dra. Natalia Arias Trejo. Actualmente, bajo la supervisión de la Dra. Natalia Arias, elabora su tesis de Licenciatura, la cuál tiene como tópico central la realización de Normas de Asociación de Palabras con adultos jóvenes e Infantes en el español mexicano. Otras de sus áreas de interés es el procesamiento lingüístico en infantes, tareas tipo Priming, Redes léxicas, asociación entre palabras con modelos matemáticos, entre otros. Como producto de su colaboración en el Laboratorio de Infantes ha presentado varias ponencias en foros estudiantiles, coloquios y congresos nacionales.",
+    "imagen":"julia.jpg"
+  },
+  {
     "nombre": "Susana Anahí Alpizar Rodríguez",
     "semblanza": "Pasante de la licenciatura en Psicología en la Facultad de Psicología en Ciudad Universitaria, UNAM. Durante la carrera se inclinó más hacia la psicología clínica y las neurociencias, de igual manera trabajó con niños, adolescentes y adultos obteniendo experiencia práctica con estas poblaciones. Actualmente se encuentra realizando su servicio social en el Laboratorio de Infantes contribuyendo en las investigaciones sobre adquisición del lenguaje en población infantil.<br>Recientemente contribuyó, junto con otras colaboradoras, en la realización de dos trabajos que se enviaron al Congreso Mexicano de Psicología los cuales se titularon “Análisis de frecuencias fonéticas de una base de habla espontánea de infantes hispanohablantes*” y “Conductas parentales y palabras comprendidas por el infante a los 15 meses”. Sus intereses se centran en la población infantil y los procesos cognitivos que se desarrollan en esa etapa así como los factores que influyen en su aprendizaje y de qué manera lo hacen durante su desarrollo.",
     "imagen": "susana.jpg"
