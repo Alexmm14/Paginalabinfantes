@@ -46,5 +46,20 @@
         "nombre":"Mitzy Martinez",
         "semblanza":"Estudiante de la licenciatura en Lengua y Literaturas Hispánicas en la Facultad de Filosofía y Letras de la UNAM. Forma parte del Grupo de Investigación en Estructura de la Lengua (GIELE), iniciado por la Dra. Karen Miladys Cardenas Almanza, desde marzo del 2023. Participó como parte del comité organizador del Congreso Nacional de Lingüística: de la forma a la función, y como ponente, en este mismo, con el cartel científico “Sociosemántica del desarrollo del lenguaje en infantes mexicanos de 30, 36, 42 y 48 meses” junto a su gran amiga y colega Aimee Michelle Roldán. Dentro de sus intereses se encuentran el análisis del discurso y la adquisición del lenguaje. Actualmente está haciendo su servicio social en el Laboratorio de Infantes, Cognición y Lenguaje de la Facultad de Psicología de la UNAM.",
         "imagen":"mitzy.png"
+      },
+      {
+        "nombre":"Fátima Melissa Aldape Zavala",
+        "semblanza":"Egresada en junio de 2023 de la licenciatura en Psicología, por parte de la Facultad de Psicología de la UNAM, con enfoque en psicología educativa. En 2022 participó en prácticas curriculares, brindando acompañamiento psicoeducativo y apoyo académico a personas con discapacidad intelectual en el programa “Construyendo Puentes” perteneciente a la asociación civil Centro de Autonomía Personal y Social (CAPYS). Asimismo, en enero de 2023 colaboró en el diseño e impartición de clases en el Centro de Investigación y Servicios de Educación Especial (CISEE) como parte del programa de prácticas “Promoción de competencias emocionales con personas con discapacidad intelectual”. <br>En agosto de 2023 ingresó al Laboratorio de Infantes de la Facultad de Psicología de la UNAM a realizar su servicio social en el programa “Adquisición del lenguaje en infantes mexicanos”.",
+        "imagen":"melisa.jpg"
+      },
+      {
+        "nombre":"Juan Miguel Gómez Contreras.",
+        "semblanza":"Estudiante de la Licenciatura en Informática en la Facultad de Contaduría y Administración de la Universidad Nacional Autónoma de México (UNAM). Inició su carrera en el año 2020 y actualmente (2024) se encuentra en el último año académico y forma parte del Laboratorio de Infantes en donde realiza su servicio social.<br>A lo largo de su trayectoria académica, ha cultivado un sólido conocimiento en el paradigma orientado a objetos y el paradigma estructurado. Su enfoque integral le ha permitido comprender y aplicar de manera efectiva conceptos clave en el desarrollo de software, facilitando la creación de soluciones eficientes y efectivas.<br>Asimismo, ha adquirido habilidades destacadas en la planificación y desarrollo de proyectos, siguiendo las mejores prácticas establecidas por el Project Management Body of Knowledge (PMBOK). Esta base le ha permitido abordar proyectos con una perspectiva integral, desde la conceptualización hasta la implementación, asegurando la entrega de resultados exitosos.<br>En cuanto a sus habilidades técnicas, he desarrollado competencia en varios lenguajes de programación, entre ellos Python, Java, C++, y C#. Esta diversidad le ha  brindado la flexibilidad necesaria para abordar una amplia gama de proyectos y desafíos, permitiéndole adaptarse a las necesidades específicas de cada situación.",
+        "imagen":"Juan.jpg"
+      },
+      {
+        "nombre":"Concepción Iliana Martínez Benítez.",
+        "semblanza":"Estudiante de octavo semestre de la carrera de Psicología de la Universidad Latina, Interesada en las áreas de neuropsicología, clínica y educativa. Actualmente se encuentra realizando su servicio social en el Laboratorio de Infantes, se integró a este espacio por su interés en la investigación con bebés en general y en la adquisición de la lengua materna en particular. Dentro del laboratorio colabora en un proyecto en donde se investiga los efectos del confinamiento durante la pandemia por COVID-19 en el vocabulario de bebés de 24 y 30 meses..",
+        "imagen":"cony.jpg"
       }
 ]
