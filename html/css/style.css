@@ -402,13 +402,11 @@ ul.social_icon1 li:last-child {
 .header_midil {
      width: 100%;
      padding-bottom: 10px;
-     background-image: url(../images/fondoheader.jpg);
      /* Ruta de la imagen de fondo */
      background-size: cover;
      /* Ajusta la imagen al tamaño del contenedor */
      background-color: rgb(150, 114, 35);
      /* Color de fondo translúcido (en este caso, negro con 50% de opacidad) */
-     background-blend-mode: overlay;
      /* Mezcla la imagen con el color de fondo */
 }
 
