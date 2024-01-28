@@ -405,7 +405,7 @@ ul.social_icon1 li:last-child {
      /* Ruta de la imagen de fondo */
      background-size: cover;
      /* Ajusta la imagen al tamaño del contenedor */
-     background-color: rgb(150, 114, 35);
+     background-color: #967223;
      /* Color de fondo translúcido (en este caso, negro con 50% de opacidad) */
      /* Mezcla la imagen con el color de fondo */
 }
@@ -1466,6 +1466,7 @@ ul.img_icon li {
 
 .colorbonton {
      color: white;
+     border-color: #967223;
      background-color: #967223;
      text-decoration: none !important;
      outline: none !important;
