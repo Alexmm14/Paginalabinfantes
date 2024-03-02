@@ -67,31 +67,32 @@
             <div class="container">
                <div class="row">
                   <div class="col-sm-2 text-center d-none d-sm-block mt-4">
-                     <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
-                     <a class="logo2 " href="https://www.unam.mx/" target="_blank">
-                        <img src="images/logo-unam-png-blanco-ok.png" alt="#" class="img-fluid" />
-                     </a>
+                      <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
+                      <a class="logo2 " href="https://www.unam.mx/" target="_blank">
+                          <img src="images/logo-unam-png-blanco-ok.png" alt="#" class="img-fluid" />
+                      </a>
                   </div>
-                  <div class="col-sm-2 text-center mt-4">
-                     <!-- Nueva columna para la segunda imagen -->
-                     <a class="logo2 " href="https://www.psicologia.unam.mx/">
-                        <img src="images/logopsicologia.png" alt="" class="img-fluid" />
+                  <div class="col-sm-2 text-center d-none d-sm-block mt-4">
+                     <!-- Desaparecerá en pantallas pequeñas -->
+                     <a class="logo2 img-fluid " href="https://www.psicologia.unam.mx/">
+                         <img src="images/logopsicologia.png" alt="" class="img-fluid" />
                      </a>
-                  </div>
-                  <div class="col-sm-6 text-center mt-4"> <!-- Esta columna ocupará 8 de 12 columnas (2/3 del ancho) -->
-                     <a class="logo " href="index.html">
-                        <img style="margin-top: 33px; margin-right: 141px;" src="images/image (2).png" alt="#"
-                           class="img-fluid max-width" />
-                     </a>
+                 </div>
+                 
+                 
+                  <div class="col-sm-6 text-center mt-0 mt-md-4 "> <!-- Esta columna ocupará 8 de 12 columnas (2/3 del ancho) -->
+                      <a class="logo " href="index.html">
+                          <img src="images/image (2).png" alt="#" class="img-fluid max-width mt-5 m" />
+                      </a>
                   </div>
                   <div class="col-sm-2 text-center d-none d-sm-block">
-                     <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
-                     <a class="logo2 " href="index.html">
-                        <img src="images/Olivia_Wilson__1_-removebg-preview (4) (1).png" alt="#" class="img-fluid" />
-                     </a>
+                      <!-- Esta columna ocupará 4 de 12 columnas (1/3 del ancho) -->
+                      <a class="logo2 " href="index.html">
+                          <img src="images/Olivia_Wilson__1_-removebg-preview (4) (1).png" alt="#" class="img-fluid" />
+                      </a>
                   </div>
-               </div>
-
+              </div>
+              
             </div>
          </div>
 
@@ -128,6 +129,7 @@
                               <!-- Puedes agregar más elementos dentro de este div para crear la lista -->
                               <a class="dropdown-item" href="proyectos.html">Proyectos</a>
                               <a class="dropdown-item" href="productosInvestigacion.html">Productos de Investigación</a>
+                              <a class="dropdown-item" href="./PDFS/Inventario2017_Fragmento.pdf" target="_blank">Producción léxica</a>
 
                            </div>
                         </li>
@@ -167,9 +169,45 @@
          </div>
          <div class="d-flex justify-content-center pb-5 row">
             <div class="col-lg-6">
-               <img src="images/fotoForm.jpg" alt="Imagen" class="img-fluid">
+                <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/fotoForm.jpg" class="d-block w-100" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                           <a href="https://www.youtube.com/embed/NWcEO4n9HEM?rel=0&autoplay=1" target="_blank"><img src="images/CarruselIndex/anuncio6.jpg" class="d-block w-100" alt="Imagen 2"></a>
+                        </div>
+                        <!-- Agrega más elementos carousel-item según sea necesario -->
+                    </div>
+        
+                    <!-- Controles del carrusel -->
+                    <a class="carousel-control-prev" href="#miCarrusel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#miCarrusel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
             </div>
-         </div>
+        </div>
+        
+        <script>
+            // Configurar el intervalo de cambio de imágenes (5000 milisegundos = 5 segundos)
+            var intervalo = 5000;
+        
+            // Obtener el elemento del carrusel
+            var carrusel = document.getElementById('miCarrusel');
+        
+            // Iniciar el carrusel
+            $('#miCarrusel').carousel();
+        
+            // Configurar la función para cambiar las imágenes cada 5 segundos
+            setInterval(function () {
+                $('#miCarrusel').carousel('next');
+            }, intervalo);
+        </script>
          <div class="col-12">
             <div class="container container-fluid">
                <div class="row divform">

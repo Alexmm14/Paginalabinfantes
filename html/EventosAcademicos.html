@@ -128,7 +128,7 @@
                               <!-- Puedes agregar más elementos dentro de este div para crear la lista -->
                               <a class="dropdown-item" href="proyectos.html">Proyectos</a>
                               <a class="dropdown-item" href="productosInvestigacion.html">Productos de Investigación</a>
-
+                              <a class="dropdown-item" href="./PDFS/Inventario2017_Fragmento.pdf" target="_blank">Producción léxica</a>
                            </div>
                         </li>
                         <li class="nav-item">
@@ -179,57 +179,54 @@
    
    <script>
       var rutaJSON = 'JSON/eventosAcademicos.json';
-   
+  
       fetch(rutaJSON)
-         .then(response => response.json())
-         .then(jsonArray => {
-            // Obtener el contenedor de los indicadores
-            var carruselIndicador = document.getElementById('olcarrusel');
-            var num1 = 0;
-   
-            jsonArray.forEach(jsonInfo => {
-               var elementoIndicador = document.createElement('li');
-               elementoIndicador.setAttribute('data-target', '#carrusel1');
-               elementoIndicador.setAttribute('data-slide-to', num1);
-               
-               if (num1 === 0) {
-                  elementoIndicador.classList.add('active');
-               }
-               
-               carruselIndicador.appendChild(elementoIndicador);
-               num1++;
-            });
-   
-            // Obtener el contenedor del carrusel
-            var carrusel = document.getElementById('carrusel');
-            var num2 = 0;
-   
-            jsonArray.forEach(jsonInfo => {
-               var elementoEntrevista = document.createElement('div');
-               elementoEntrevista.classList.add('carousel-item');
-               
-               if (num2 === 0) {
-                  elementoEntrevista.classList.add('active');
-               }
-               
-               elementoEntrevista.innerHTML = `
-                  <div class="col-12 mb-3 pt-3">
-                     <h2 class="colorletra">${jsonInfo.Nombre}</h2>
-                  </div>
-                  <div class="col-12 mx-3 mx-lg-0">
-                     <img src="./images/eventosAcademicos/${jsonInfo.foto}" alt="Imagen ${num2}" class="img-fluid">
-                  </div>
-                  <div class="mb-3 mt-3 ml-3 mx-lg-3 col-12 text-center">
-                     <p class=" bloque">${jsonInfo.descripcion}</p>
-                  </div>
-               `;
-               
-               carrusel.appendChild(elementoEntrevista);
-               num2++;
-            });
-         })
-         .catch(error => console.error('Error al obtener el JSON:', error));
-   </script>
+          .then(response => response.json())
+          .then(jsonArray => {
+              var carruselIndicador = document.getElementById('olcarrusel');
+              var carrusel = document.getElementById('carrusel');
+  
+              // Invertir el array para mostrar primero los últimos elementos
+              jsonArray.reverse();
+  
+              jsonArray.forEach((jsonInfo, index) => {
+                  // Crear elemento indicador
+                  var elementoIndicador = document.createElement('li');
+                  elementoIndicador.setAttribute('data-target', '#carrusel1');
+                  elementoIndicador.setAttribute('data-slide-to', index);
+  
+                  if (index === 0) {
+                      elementoIndicador.classList.add('active');
+                  }
+  
+                  carruselIndicador.appendChild(elementoIndicador);
+  
+                  // Crear elemento de carrusel
+                  var elementoEntrevista = document.createElement('div');
+                  elementoEntrevista.classList.add('carousel-item');
+  
+                  if (index === 0) {
+                      elementoEntrevista.classList.add('active');
+                  }
+  
+                  elementoEntrevista.innerHTML = `
+                      <div class="col-12 mb-3 pt-3">
+                          <h2 class="colorletra">${jsonInfo.Nombre}</h2>
+                      </div>
+                      <div class="col-12 mx-3 mx-lg-0">
+                          <img src="./images/eventosAcademicos/${jsonInfo.foto}" alt="Imagen ${index}" class="img-fluid">
+                      </div>
+                      <div class="mb-3 mt-3 ml-3 mx-lg-3 col-12 text-center">
+                          <p class="bloque">${jsonInfo.descripcion}</p>
+                      </div>
+                  `;
+  
+                  carrusel.appendChild(elementoEntrevista);
+              });
+          })
+          .catch(error => console.error('Error al obtener el JSON:', error));
+  </script>
+  
   
    
 
