@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->SMTPAuth = true;
         $mail->Username = 'alexmm14@hotmail.es';
-        $mail->Password = 'aiiuptkfhbifgsjz';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls'; // o 'ssl' si es necesario
         $mail->Port = 587; // o el puerto que utilices
 
