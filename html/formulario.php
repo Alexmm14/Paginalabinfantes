@@ -69,4 +69,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo 'Error: El formulario debe enviarse por el método POST.';
 }
+#comentario
 ?>
