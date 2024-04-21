@@ -33,6 +33,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    <link rel="icon" href="favicon.ico" type="image/x-icon" />
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+   <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+
 </head>
 <!-- body -->
 
@@ -220,101 +222,96 @@
                   </div>
 
                   <div class="col-md-6 offset-md-3 divform ho_color formulario">
-                     <form>
+                     <form id="miFormulario" method="POST" action="./formulario.php">
                         <div class="form-group row pt-4">
-
-                           <label for="elemento1" class="col-lg-6 col-form-label ">Nombre del madre/padre:</label>
-                           <div class="col-lg-6">
-                              <input type="text" class="form-control" id="elemento1"
-                                 placeholder="Nombre del madre/padre">
-                           </div>
+                            <label for="elemento1" class="col-lg-6 col-form-label">Nombre del padre/madre:</label>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" name="elemento1" placeholder="Nombre del padre/madre" required>
+                            </div>
                         </div>
-
-                        <!-- Elemento 2: Cuadro de texto -->
+                    
                         <div class="form-group row">
-
-                           <label for="elemento2" class="col-lg-6 col-form-label ">Nombre del niño(a):</label>
-                           <div class="col-lg-6">
-                              <input type="text" class="form-control" id="elemento2" placeholder="Nombre del bebé">
-                           </div>
+                            <label for="elemento2" class="col-lg-6 col-form-label">Nombre del niño(a):</label>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" name="elemento2" placeholder="Nombre del bebé" required>
+                            </div>
                         </div>
-
+                    
                         <div class="form-group row">
+<<<<<<< HEAD
 
                            <label for="elemento2" class="col-lg-6 col-form-label ">Año de nacimiento del
                               niño(a):</label>
                            <div class="col-lg-6">
                               <input type="date" class="form-control" id="elementoedad" placeholder="Nombre del bebé">
                            </div>
+=======
+                            <label for="elementoedad" class="col-lg-6 col-form-label">Año de nacimiento del niño(a):</label>
+                            <div class="col-lg-6">
+                                <input type="date" class="form-control" name="elementoedad" placeholder="Año de nacimiento" required>
+                            </div>
+>>>>>>> 4ce4dd23a94eba6eaf43035d6eb157141af57871
                         </div>
-
-                        <!-- Elemento 3: Cuadro de selección -->
+                    
                         <div class="form-group row">
-                           <label for="elemento3" class="col-lg-6 col-form-label">Sexo: </label>
-                           <div class="col-lg-6">
-                              <select class="form-control" id="elemento3">
-                                 <option value="opcion1">Masculino</option>
-                                 <option value="opcion2">Femenino</option>
-                              </select>
-                           </div>
-
+                            <label for="elemento3" class="col-lg-6 col-form-label">Sexo:</label>
+                            <div class="col-lg-6">
+                                <select class="form-control" name="elemento3" required>
+                                    <option value="masculino">Masculino</option>
+                                    <option value="femenino">Femenino</option>
+                                </select>
+                            </div>
                         </div>
-                        <!-- Elemento 4: Cuadro para ingresar números -->
+                    
                         <div class="form-group row">
-                           <label for="elemento4" class="col-lg-6 col-form-label">Teléfono de contacto: </label>
-                           <div class="col-lg-6">
-                              <input type="text" class="form-control" id="elemento4"
-                                 placeholder="Ingresa un número telefonico">
-                           </div>
+                            <label for="elemento4" class="col-lg-6 col-form-label">Teléfono de contacto:</label>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" name="elemento4" placeholder="Ingresa un número telefonico" required>
+                            </div>
                         </div>
-
-                        <!-- Elemento 5: Cuadro para ingresar números -->
+                    
                         <div class="form-group row">
-                           <label for="elemento5" class="col-lg-6 col-form-label">Otro teléfono</label>
-                           <div class="col-lg-6">
-                              <input type="text   " class="form-control" id="elemento5"
-                                 placeholder="Ingresa un número telefonico">
-                           </div>
+                            <label for="elemento5" class="col-lg-6 col-form-label">Otro teléfono:</label>
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control" name="elemento5" placeholder="Ingresa otro número telefonico">
+                            </div>
                         </div>
-
-                        <!-- Elemento 6: Cuadro de selección -->
+                    
                         <div class="form-group row">
-                           <label for="elemento6" class="col-lg-6 col-form-label">Horario de contacto: </label>
-                           <div class="col-lg-6">
-                              <select class="form-control" id="elemento6">
-                                 <option value="opcion2">10:00 hrs</option>
-                                 <option value="opcion3">11:00 hrs</option>
-                                 <option value="opcion3">12:00 hrs</option>
-                                 <option value="opcion3">13:00 hrs</option>
-                                 <option value="opcion3">14:00 hrs</option>
-                                 <option value="opcion3">15:00 hrs</option>
-                                 <option value="opcion3">16:00 hrs</option>
-                                 <option value="opcion3">17:00 hrs</option>
-                                 <option value="opcion3">18:00 hrs</option>
-                              </select>
-                           </div>
+                            <label for="elemento6" class="col-lg-6 col-form-label">Horario de contacto:</label>
+                            <div class="col-lg-6">
+                                <select class="form-control" name="elemento6" required>
+                                    <option value="10:00">10:00 hrs</option>
+                                    <option value="11:00">11:00 hrs</option>
+                                    <option value="12:00">12:00 hrs</option>
+                                    <option value="13:00">13:00 hrs</option>
+                                    <option value="14:00">14:00 hrs</option>
+                                    <option value="15:00">15:00 hrs</option>
+                                    <option value="16:00">16:00 hrs</option>
+                                    <option value="17:00">17:00 hrs</option>
+                                    <option value="18:00">18:00 hrs</option>
+                                </select>
+                            </div>
                         </div>
-
-
-                        <!-- Elemento 7: Cuadro para ingresar correo -->
+                    
                         <div class="form-group row">
-                           <label for="elemento7" class="col-lg-6 col-form-label">Correo electronico)</label>
-                           <div class="col-lg-6">
-                              <input type="email" class="form-control" id="elemento7" placeholder="correo@example.com">
-                           </div>
+                            <label for="elemento7" class="col-lg-6 col-form-label">Correo electrónico:</label>
+                            <div class="col-lg-6">
+                                <input type="email" class="form-control" name="elemento7" placeholder="correo@example.com" required>
+                            </div>
                         </div>
-
-                        <!-- Elemento 8: Cuadro de selección -->
+                    
                         <div class="form-group row">
-                           <label for="elemento8" class="col-lg-6 col-form-label">Como supo de nososotros: </label>
-                           <div class="col-lg-6">
-                              <select class="form-control" id="elemento8">
-                                 <option value="opcion1">Redes sociales</option>
-                                 <option value="opcion2">Familiar/Amigo</option>
-                                 <option value="opcion3">Cartel en via publica</option>
-                              </select>
-                           </div>
+                            <label for="elemento8" class="col-lg-6 col-form-label">Cómo supo de nosotros:</label>
+                            <div class="col-lg-6">
+                                <select class="form-control" name="elemento8" required>
+                                    <option value="Redes sociales">Redes sociales</option>
+                                    <option value="Familiar/Amigo">Familiar/Amigo</option>
+                                    <option value="Cartel en vía pública">Cartel en vía pública</option>
+                                </select>
+                            </div>
                         </div>
+<<<<<<< HEAD
                         <div class="row justify-content-center align-items-center py-5">
                            <div class="row justify-content-center align-items-center py-5">
                               <div class="form-group row mx-auto">
@@ -358,6 +355,31 @@
                            </div>
                         </div>
                      </form>
+=======
+                    
+                        <div class="form-group row">
+                            <div class="col-sm-12 pb-2">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="terminos" required>
+                                    <label class="form-check-label" for="terminos">Acepto
+                                        <a href="#" data-toggle="modal" data-target="#confidencialidadModal" style="color: white;">
+                                            <strong>Acuerdo de Confidencialidad</strong>
+                                        </a>
+                                    </label>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Debes aceptar los términos y condiciones para continuar.
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="form-group row mx-auto">
+                            <button type="submit" class="btn btn-secondary colorbonton mx-auto">Enviar</button>
+                        </div>
+                    </form>
+                    
+            
+>>>>>>> 4ce4dd23a94eba6eaf43035d6eb157141af57871
                   </div>
                </div>
 
